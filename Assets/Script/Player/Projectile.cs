@@ -3,6 +3,7 @@ using UnityEngine;
 public class Projectile : MonoBehaviour
 {
     [SerializeField] private float speed;
+    [SerializeField] private float damage = 50f;
     private float direction;
     private bool hit;
     private float lifetime;
@@ -26,9 +27,20 @@ public class Projectile : MonoBehaviour
     }
     private void OnTriggerEnter2D(Collider2D collision)
     {
+        if (collision.CompareTag("Player"))
+        {
+            return;
+        }
+        if (hit) return; 
+
         hit = true;
         boxCollider.enabled = false;
         anim.SetTrigger("explode");
+
+        if (collision.CompareTag("Enemy"))
+        {
+            collision.GetComponent<EnemyHealth>()?.TakeDamage(damage);
+        }
     }
     public void SetDirection(float _direction)
     {

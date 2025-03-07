@@ -5,7 +5,10 @@ public class PlayerAttack : MonoBehaviour
     [SerializeField] private float attackCooldown;
     [SerializeField] private Transform firePoint;
     [SerializeField] private GameObject[] fireballs;
-
+    public Transform attackPoint;           
+    public float attackRange = 0.5f;          
+    public int attackDamage = 30;             
+    public LayerMask enemyLayers;
     private Animator anim;
     private PlayerMovement playerMovement;
     private float cooldownTimer = Mathf.Infinity;
@@ -29,6 +32,19 @@ public class PlayerAttack : MonoBehaviour
     {
         anim.SetTrigger("playerAttack");
         cooldownTimer = 0;
+        Collider2D[] hitEnemies = Physics2D.OverlapCircleAll(attackPoint.position, attackRange, enemyLayers);
+        foreach (Collider2D enemy in hitEnemies)
+        {
+
+            if (enemy.CompareTag("Enemy"))
+            {
+                enemy.GetComponent<EnemyHealth>().TakeDamage(attackDamage);
+            }
+                else if (enemy.CompareTag("Boss"))
+                {
+                        
+                }
+        }
     }
     private void Shooting()
     {
