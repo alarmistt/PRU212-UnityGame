@@ -1,0 +1,299 @@
+fileFormatVersion: 2
+guid: 275fefae8d0b2774e84c1c2c66618ad2
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -6169458172883193872
+    second: Forest TileSet Pixel Art #1 32x32_0
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Forest TileSet Pixel Art #1 32x32_59
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 0
+        width: 96
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4dab10975fde2004aa10dc5dd55c86c6
+      internalID: -1075637066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: f0ff453458926ea40ac7e5821079da28
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Forest TileSet Pixel Art #1 32x32_0: -6169458172883193872
+      Forest TileSet Pixel Art #1 32x32_1: 675941686
+      Forest TileSet Pixel Art #1 32x32_10: -884536305
+      Forest TileSet Pixel Art #1 32x32_100: 833962751
+      Forest TileSet Pixel Art #1 32x32_101: -1357812782
+      Forest TileSet Pixel Art #1 32x32_102: -1998095375
+      Forest TileSet Pixel Art #1 32x32_103: -1829120497
+      Forest TileSet Pixel Art #1 32x32_104: -422928347
+      Forest TileSet Pixel Art #1 32x32_105: -783269931
+      Forest TileSet Pixel Art #1 32x32_106: -1510180922
+      Forest TileSet Pixel Art #1 32x32_107: 1841659291
+      Forest TileSet Pixel Art #1 32x32_108: -304322386
+      Forest TileSet Pixel Art #1 32x32_109: -1772832847
+      Forest TileSet Pixel Art #1 32x32_11: 1540324752
+      Forest TileSet Pixel Art #1 32x32_110: -811873925
+      Forest TileSet Pixel Art #1 32x32_111: 1939833282
+      Forest TileSet Pixel Art #1 32x32_112: 527499672
+      Forest TileSet Pixel Art #1 32x32_113: 1519664049
+      Forest TileSet Pixel Art #1 32x32_114: -1307629139
+      Forest TileSet Pixel Art #1 32x32_115: 1330428594
+      Forest TileSet Pixel Art #1 32x32_116: 897603503
+      Forest TileSet Pixel Art #1 32x32_117: 1153185994
+      Forest TileSet Pixel Art #1 32x32_118: 1381031165
+      Forest TileSet Pixel Art #1 32x32_119: -351281850
+      Forest TileSet Pixel Art #1 32x32_12: -125069319
+      Forest TileSet Pixel Art #1 32x32_120: -391755027
+      Forest TileSet Pixel Art #1 32x32_121: -1445804694
+      Forest TileSet Pixel Art #1 32x32_122: -2020905291
+      Forest TileSet Pixel Art #1 32x32_123: -335246364
+      Forest TileSet Pixel Art #1 32x32_124: 830013173
+      Forest TileSet Pixel Art #1 32x32_125: 1644447824
+      Forest TileSet Pixel Art #1 32x32_126: -744411263
+      Forest TileSet Pixel Art #1 32x32_127: 623771097
+      Forest TileSet Pixel Art #1 32x32_128: -321238335
+      Forest TileSet Pixel Art #1 32x32_129: -283657044
+      Forest TileSet Pixel Art #1 32x32_13: 1842464613
+      Forest TileSet Pixel Art #1 32x32_130: 1502398542
+      Forest TileSet Pixel Art #1 32x32_131: 1528126565
+      Forest TileSet Pixel Art #1 32x32_132: 1576248943
+      Forest TileSet Pixel Art #1 32x32_133: -1245818305
+      Forest TileSet Pixel Art #1 32x32_134: 1384224212
+      Forest TileSet Pixel Art #1 32x32_135: 1094280584
+      Forest TileSet Pixel Art #1 32x32_136: -899574791
+      Forest TileSet Pixel Art #1 32x32_137: 1585058921
+      Forest TileSet Pixel Art #1 32x32_138: -1219761058
+      Forest TileSet Pixel Art #1 32x32_139: -892698957
+      Forest TileSet Pixel Art #1 32x32_14: -1647961685
+      Forest TileSet Pixel Art #1 32x32_140: 1722084179
+      Forest TileSet Pixel Art #1 32x32_141: -491865573
+      Forest TileSet Pixel Art #1 32x32_142: 290729435
+      Forest TileSet Pixel Art #1 32x32_143: -437389366
+      Forest TileSet Pixel Art #1 32x32_15: -738980086
+      Forest TileSet Pixel Art #1 32x32_16: 1699258205
+      Forest TileSet Pixel Art #1 32x32_17: -817643187
+      Forest TileSet Pixel Art #1 32x32_18: -1851898004
+      Forest TileSet Pixel Art #1 32x32_19: 1845824920
+      Forest TileSet Pixel Art #1 32x32_2: -1985374019
+      Forest TileSet Pixel Art #1 32x32_20: 1816464870
+      Forest TileSet Pixel Art #1 32x32_21: 659059176
+      Forest TileSet Pixel Art #1 32x32_22: -1694948910
+      Forest TileSet Pixel Art #1 32x32_23: 1637488232
+      Forest TileSet Pixel Art #1 32x32_24: -548975880
+      Forest TileSet Pixel Art #1 32x32_25: 1947968183
+      Forest TileSet Pixel Art #1 32x32_26: -1838635779
+      Forest TileSet Pixel Art #1 32x32_27: -1014553791
+      Forest TileSet Pixel Art #1 32x32_28: 1864695181
+      Forest TileSet Pixel Art #1 32x32_29: -292406084
+      Forest TileSet Pixel Art #1 32x32_3: 1316533850
+      Forest TileSet Pixel Art #1 32x32_30: 1910448493
+      Forest TileSet Pixel Art #1 32x32_31: -1695161272
+      Forest TileSet Pixel Art #1 32x32_32: -555497631
+      Forest TileSet Pixel Art #1 32x32_33: 961218945
+      Forest TileSet Pixel Art #1 32x32_34: 1830876546
+      Forest TileSet Pixel Art #1 32x32_35: -1255806123
+      Forest TileSet Pixel Art #1 32x32_36: -1352227590
+      Forest TileSet Pixel Art #1 32x32_37: -1033528078
+      Forest TileSet Pixel Art #1 32x32_38: -1249066241
+      Forest TileSet Pixel Art #1 32x32_39: 757775074
+      Forest TileSet Pixel Art #1 32x32_4: -941987709
+      Forest TileSet Pixel Art #1 32x32_40: 1278332399
+      Forest TileSet Pixel Art #1 32x32_41: 1907542929
+      Forest TileSet Pixel Art #1 32x32_42: 1292370652
+      Forest TileSet Pixel Art #1 32x32_43: 283404671
+      Forest TileSet Pixel Art #1 32x32_44: 930475551
+      Forest TileSet Pixel Art #1 32x32_45: 814806391
+      Forest TileSet Pixel Art #1 32x32_46: 370444164
+      Forest TileSet Pixel Art #1 32x32_47: -1352864144
+      Forest TileSet Pixel Art #1 32x32_48: -362664579
+      Forest TileSet Pixel Art #1 32x32_49: 1240971847
+      Forest TileSet Pixel Art #1 32x32_5: 686397258
+      Forest TileSet Pixel Art #1 32x32_50: 170385633
+      Forest TileSet Pixel Art #1 32x32_51: -2015753416
+      Forest TileSet Pixel Art #1 32x32_52: -1336930324
+      Forest TileSet Pixel Art #1 32x32_53: 159139040
+      Forest TileSet Pixel Art #1 32x32_54: -2040575179
+      Forest TileSet Pixel Art #1 32x32_55: 908115022
+      Forest TileSet Pixel Art #1 32x32_56: 1681199143
+      Forest TileSet Pixel Art #1 32x32_57: 1177340329
+      Forest TileSet Pixel Art #1 32x32_58: 1648777810
+      Forest TileSet Pixel Art #1 32x32_59: -1075637066
+      Forest TileSet Pixel Art #1 32x32_6: 499142269
+      Forest TileSet Pixel Art #1 32x32_60: -828362654
+      Forest TileSet Pixel Art #1 32x32_61: 1515946348
+      Forest TileSet Pixel Art #1 32x32_62: -1442561864
+      Forest TileSet Pixel Art #1 32x32_63: -1712893959
+      Forest TileSet Pixel Art #1 32x32_64: -751776997
+      Forest TileSet Pixel Art #1 32x32_65: 1903275906
+      Forest TileSet Pixel Art #1 32x32_66: 183394915
+      Forest TileSet Pixel Art #1 32x32_67: 1992444347
+      Forest TileSet Pixel Art #1 32x32_68: 2051633888
+      Forest TileSet Pixel Art #1 32x32_69: -1812042902
+      Forest TileSet Pixel Art #1 32x32_7: -1901542248
+      Forest TileSet Pixel Art #1 32x32_70: 79637243
+      Forest TileSet Pixel Art #1 32x32_71: -178679814
+      Forest TileSet Pixel Art #1 32x32_72: -2050921234
+      Forest TileSet Pixel Art #1 32x32_73: -1706658427
+      Forest TileSet Pixel Art #1 32x32_74: -311183692
+      Forest TileSet Pixel Art #1 32x32_75: -1223464739
+      Forest TileSet Pixel Art #1 32x32_76: 1416375432
+      Forest TileSet Pixel Art #1 32x32_77: -830873746
+      Forest TileSet Pixel Art #1 32x32_78: 192560668
+      Forest TileSet Pixel Art #1 32x32_79: -1352817606
+      Forest TileSet Pixel Art #1 32x32_8: 1371062794
+      Forest TileSet Pixel Art #1 32x32_80: 1663359925
+      Forest TileSet Pixel Art #1 32x32_81: 1195800893
+      Forest TileSet Pixel Art #1 32x32_82: -250247919
+      Forest TileSet Pixel Art #1 32x32_83: -1182678503
+      Forest TileSet Pixel Art #1 32x32_84: -1386428970
+      Forest TileSet Pixel Art #1 32x32_85: -1594148408
+      Forest TileSet Pixel Art #1 32x32_86: -626168522
+      Forest TileSet Pixel Art #1 32x32_87: -590559212
+      Forest TileSet Pixel Art #1 32x32_88: 1814540004
+      Forest TileSet Pixel Art #1 32x32_89: -516209172
+      Forest TileSet Pixel Art #1 32x32_9: 1707882200
+      Forest TileSet Pixel Art #1 32x32_90: -1941739974
+      Forest TileSet Pixel Art #1 32x32_91: 694814460
+      Forest TileSet Pixel Art #1 32x32_92: 380496182
+      Forest TileSet Pixel Art #1 32x32_93: -1700891348
+      Forest TileSet Pixel Art #1 32x32_94: 698296306
+      Forest TileSet Pixel Art #1 32x32_95: 2077470317
+      Forest TileSet Pixel Art #1 32x32_96: -1212445022
+      Forest TileSet Pixel Art #1 32x32_97: 601544655
+      Forest TileSet Pixel Art #1 32x32_98: 1712780846
+      Forest TileSet Pixel Art #1 32x32_99: 515442906
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
