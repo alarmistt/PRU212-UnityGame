@@ -1347,7 +1347,56 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Orc_Berserc_Spritelist_0: -5433067185228994557
+      Orc_Berserc_Spritelist_1: 6770174532072455270
+      Orc_Berserc_Spritelist_10: -4017054003766521914
+      Orc_Berserc_Spritelist_11: -253460582434806327
+      Orc_Berserc_Spritelist_12: 7202850510299868490
+      Orc_Berserc_Spritelist_13: 6949656193721436326
+      Orc_Berserc_Spritelist_14: -5154682839831403016
+      Orc_Berserc_Spritelist_15: 8892851545554868603
+      Orc_Berserc_Spritelist_16: -3164940834464166731
+      Orc_Berserc_Spritelist_17: 6317525583422233168
+      Orc_Berserc_Spritelist_18: -8929350592230779607
+      Orc_Berserc_Spritelist_19: -6640957197181301365
+      Orc_Berserc_Spritelist_2: -5814920268578754191
+      Orc_Berserc_Spritelist_20: 7578484617726277235
+      Orc_Berserc_Spritelist_21: 5110980224032104447
+      Orc_Berserc_Spritelist_22: -3245945068881931356
+      Orc_Berserc_Spritelist_23: -1907457076526341266
+      Orc_Berserc_Spritelist_24: -647354048508189353
+      Orc_Berserc_Spritelist_25: 8125810042861174673
+      Orc_Berserc_Spritelist_26: -740146759235885773
+      Orc_Berserc_Spritelist_27: 3953735726173000199
+      Orc_Berserc_Spritelist_28: 6538983321042573123
+      Orc_Berserc_Spritelist_29: -128018868636863663
+      Orc_Berserc_Spritelist_3: -7216758332875706545
+      Orc_Berserc_Spritelist_30: -5151059017697223611
+      Orc_Berserc_Spritelist_31: 8753966782197862899
+      Orc_Berserc_Spritelist_32: 3502162587340356163
+      Orc_Berserc_Spritelist_33: -4124433287559934662
+      Orc_Berserc_Spritelist_34: 1958750192000965095
+      Orc_Berserc_Spritelist_35: -8270167201281069482
+      Orc_Berserc_Spritelist_36: -7043879271792739455
+      Orc_Berserc_Spritelist_37: -8500114856606173976
+      Orc_Berserc_Spritelist_38: 7738491702179206570
+      Orc_Berserc_Spritelist_39: 8962464839913320220
+      Orc_Berserc_Spritelist_4: -8905359948274089021
+      Orc_Berserc_Spritelist_40: -8801094033966159724
+      Orc_Berserc_Spritelist_41: 7652393599376307949
+      Orc_Berserc_Spritelist_42: -7554359946178768167
+      Orc_Berserc_Spritelist_43: -2174931023705827326
+      Orc_Berserc_Spritelist_44: 5308345240526956151
+      Orc_Berserc_Spritelist_45: -420546641457585575
+      Orc_Berserc_Spritelist_46: 4396213354176035874
+      Orc_Berserc_Spritelist_47: -1124574346213116129
+      Orc_Berserc_Spritelist_48: -6329243613486600594
+      Orc_Berserc_Spritelist_5: 6262901938907776230
+      Orc_Berserc_Spritelist_6: -922106713425016422
+      Orc_Berserc_Spritelist_7: -7518676162937145238
+      Orc_Berserc_Spritelist_8: 8722176095047019228
+      Orc_Berserc_Spritelist_9: -6699057480329621545
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

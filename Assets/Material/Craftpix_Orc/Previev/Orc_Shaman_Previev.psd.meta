@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Orc_Shaman_Previev_0: 5405243785402608644
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

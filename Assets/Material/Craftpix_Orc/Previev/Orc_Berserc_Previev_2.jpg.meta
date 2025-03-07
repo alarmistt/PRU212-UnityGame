@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Orc_Berserc_Previev_2_0: 8925872387034736576
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
