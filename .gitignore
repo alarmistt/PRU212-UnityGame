@@ -1,3 +1,7 @@
+<<<<<<< HEAD
+=======
+
+>>>>>>> master
 [Ll]ibrary/
 [Tt]emp/
 [Oo]bj/
@@ -30,4 +34,8 @@
 
 
 .DS_Store
+<<<<<<< HEAD
 Thumbs.db
+=======
+Thumbs.db
+>>>>>>> master

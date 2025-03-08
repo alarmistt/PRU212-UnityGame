@@ -4,6 +4,9 @@
 TagManager:
   serializedVersion: 3
   tags:
+  - Coin
+  - Trap
+  - KillZone
   - Enemy
   layers:
   - Default
@@ -12,12 +15,12 @@ TagManager:
   - 
   - Water
   - UI
-  - 
-  - 
   - Ground
-  - Wall
-  - Player
   - Enemy
+  - 
+  - 
+  - 
+  - 
   - 
   - 
   - 
@@ -42,17 +45,23 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
-  - name: Background
-    uniqueID: 3759547919
-    locked: 0
-  - name: Foreground
-    uniqueID: 2673546275
-    locked: 0
-  - name: Player
-    uniqueID: 3937107139
+  - name: BackGround
+    uniqueID: 2416598291
     locked: 0
   - name: Ground
-    uniqueID: 2168803341
+    uniqueID: 2354881369
+    locked: 0
+  - name: ForeGround
+    uniqueID: 564221263
+    locked: 0
+  - name: Player
+    uniqueID: 359870739
+    locked: 0
+  - name: Item
+    uniqueID: 594574949
+    locked: 0
+  - name: UI
+    uniqueID: 3723591849
     locked: 0
   m_RenderingLayers:
   - Default
