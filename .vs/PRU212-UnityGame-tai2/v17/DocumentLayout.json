@@ -1,0 +1,245 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\PRU212-UnityGame-tai2\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E895D2B2-7C36-6994-1648-7FC46CE688A7}|Assembly-CSharp.csproj|d:\\pru212-unitygame-tai2\\assets\\script\\player\\playerrespawn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E895D2B2-7C36-6994-1648-7FC46CE688A7}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\player\\playerrespawn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E895D2B2-7C36-6994-1648-7FC46CE688A7}|Assembly-CSharp.csproj|D:\\PRU212-UnityGame-tai2\\assets\\script\\boss\\bossaimshoot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E895D2B2-7C36-6994-1648-7FC46CE688A7}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\boss\\bossaimshoot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E895D2B2-7C36-6994-1648-7FC46CE688A7}|Assembly-CSharp.csproj|D:\\PRU212-UnityGame-tai2\\assets\\script\\player\\playerattack.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E895D2B2-7C36-6994-1648-7FC46CE688A7}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\player\\playerattack.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E895D2B2-7C36-6994-1648-7FC46CE688A7}|Assembly-CSharp.csproj|D:\\PRU212-UnityGame-tai2\\assets\\script\\player\\projectile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E895D2B2-7C36-6994-1648-7FC46CE688A7}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\player\\projectile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E895D2B2-7C36-6994-1648-7FC46CE688A7}|Assembly-CSharp.csproj|D:\\PRU212-UnityGame-tai2\\assets\\script\\boss\\destroybullet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E895D2B2-7C36-6994-1648-7FC46CE688A7}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\boss\\destroybullet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E895D2B2-7C36-6994-1648-7FC46CE688A7}|Assembly-CSharp.csproj|d:\\pru212-unitygame-tai2\\assets\\script\\boss\\bosshealth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E895D2B2-7C36-6994-1648-7FC46CE688A7}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\boss\\bosshealth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E895D2B2-7C36-6994-1648-7FC46CE688A7}|Assembly-CSharp.csproj|d:\\pru212-unitygame-tai2\\assets\\script\\boss\\bosshealthbar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E895D2B2-7C36-6994-1648-7FC46CE688A7}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\boss\\bosshealthbar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E895D2B2-7C36-6994-1648-7FC46CE688A7}|Assembly-CSharp.csproj|D:\\PRU212-UnityGame-tai2\\assets\\script\\boss\\bossdetection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E895D2B2-7C36-6994-1648-7FC46CE688A7}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\boss\\bossdetection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E895D2B2-7C36-6994-1648-7FC46CE688A7}|Assembly-CSharp.csproj|D:\\PRU212-UnityGame-tai2\\assets\\script\\enemy\\enemyhealth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E895D2B2-7C36-6994-1648-7FC46CE688A7}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\enemy\\enemyhealth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E895D2B2-7C36-6994-1648-7FC46CE688A7}|Assembly-CSharp.csproj|D:\\PRU212-UnityGame-tai2\\assets\\script\\enemy\\enemyhealthbar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E895D2B2-7C36-6994-1648-7FC46CE688A7}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\enemy\\enemyhealthbar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E895D2B2-7C36-6994-1648-7FC46CE688A7}|Assembly-CSharp.csproj|D:\\PRU212-UnityGame-tai2\\assets\\script\\player\\playermovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E895D2B2-7C36-6994-1648-7FC46CE688A7}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\player\\playermovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E895D2B2-7C36-6994-1648-7FC46CE688A7}|Assembly-CSharp.csproj|D:\\PRU212-UnityGame-tai2\\assets\\script\\enemy\\enemypatrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E895D2B2-7C36-6994-1648-7FC46CE688A7}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\enemy\\enemypatrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PlayerRespawn.cs",
+              "DocumentMoniker": "D:\\PRU212-UnityGame-tai2\\Assets\\Script\\Player\\PlayerRespawn.cs",
+              "RelativeDocumentMoniker": "Assets\\Script\\Player\\PlayerRespawn.cs",
+              "ToolTip": "D:\\PRU212-UnityGame-tai2\\Assets\\Script\\Player\\PlayerRespawn.cs",
+              "RelativeToolTip": "Assets\\Script\\Player\\PlayerRespawn.cs",
+              "ViewState": "AQIAACAAAAAAAAAAAAAgwDQAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-09T08:43:16.028Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "BossHealth.cs",
+              "DocumentMoniker": "D:\\PRU212-UnityGame-tai2\\Assets\\Script\\Boss\\BossHealth.cs",
+              "RelativeDocumentMoniker": "Assets\\Script\\Boss\\BossHealth.cs",
+              "ToolTip": "D:\\PRU212-UnityGame-tai2\\Assets\\Script\\Boss\\BossHealth.cs",
+              "RelativeToolTip": "Assets\\Script\\Boss\\BossHealth.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-09T06:29:09.729Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "BossHealthBar.cs",
+              "DocumentMoniker": "D:\\PRU212-UnityGame-tai2\\Assets\\Script\\Boss\\BossHealthBar.cs",
+              "RelativeDocumentMoniker": "Assets\\Script\\Boss\\BossHealthBar.cs",
+              "ToolTip": "D:\\PRU212-UnityGame-tai2\\Assets\\Script\\Boss\\BossHealthBar.cs",
+              "RelativeToolTip": "Assets\\Script\\Boss\\BossHealthBar.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-09T06:25:40.999Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "DestroyBullet.cs",
+              "DocumentMoniker": "D:\\PRU212-UnityGame-tai2\\Assets\\Script\\Boss\\DestroyBullet.cs",
+              "RelativeDocumentMoniker": "Assets\\Script\\Boss\\DestroyBullet.cs",
+              "ToolTip": "D:\\PRU212-UnityGame-tai2\\Assets\\Script\\Boss\\DestroyBullet.cs",
+              "RelativeToolTip": "Assets\\Script\\Boss\\DestroyBullet.cs",
+              "ViewState": "AQIAAAIAAAAAAAAAAAAxwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-08T13:11:08.805Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "BossAimShoot.cs",
+              "DocumentMoniker": "D:\\PRU212-UnityGame-tai2\\Assets\\Script\\Boss\\BossAimShoot.cs",
+              "RelativeDocumentMoniker": "Assets\\Script\\Boss\\BossAimShoot.cs",
+              "ToolTip": "D:\\PRU212-UnityGame-tai2\\Assets\\Script\\Boss\\BossAimShoot.cs",
+              "RelativeToolTip": "Assets\\Script\\Boss\\BossAimShoot.cs",
+              "ViewState": "AQIAAHIAAAAAAAAAAAAwwH4AAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-08T13:05:38.132Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "BossDetection.cs",
+              "DocumentMoniker": "D:\\PRU212-UnityGame-tai2\\Assets\\Script\\Boss\\BossDetection.cs",
+              "RelativeDocumentMoniker": "Assets\\Script\\Boss\\BossDetection.cs",
+              "ToolTip": "D:\\PRU212-UnityGame-tai2\\Assets\\Script\\Boss\\BossDetection.cs",
+              "RelativeToolTip": "Assets\\Script\\Boss\\BossDetection.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACgAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-08T13:03:02.417Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Projectile.cs",
+              "DocumentMoniker": "D:\\PRU212-UnityGame-tai2\\Assets\\Script\\Player\\Projectile.cs",
+              "RelativeDocumentMoniker": "Assets\\Script\\Player\\Projectile.cs",
+              "ToolTip": "D:\\PRU212-UnityGame-tai2\\Assets\\Script\\Player\\Projectile.cs",
+              "RelativeToolTip": "Assets\\Script\\Player\\Projectile.cs",
+              "ViewState": "AQIAABUAAAAAAAAAAAAYwCoAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-08T13:12:58.703Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "PlayerAttack.cs",
+              "DocumentMoniker": "D:\\PRU212-UnityGame-tai2\\Assets\\Script\\Player\\PlayerAttack.cs",
+              "RelativeDocumentMoniker": "Assets\\Script\\Player\\PlayerAttack.cs",
+              "ToolTip": "D:\\PRU212-UnityGame-tai2\\Assets\\Script\\Player\\PlayerAttack.cs",
+              "RelativeToolTip": "Assets\\Script\\Player\\PlayerAttack.cs",
+              "ViewState": "AQIAAAIAAAAAAAAAAAAxwCYAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-08T13:12:27.075Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "EnemyHealth.cs",
+              "DocumentMoniker": "D:\\PRU212-UnityGame-tai2\\Assets\\Script\\Enemy\\EnemyHealth.cs",
+              "RelativeDocumentMoniker": "Assets\\Script\\Enemy\\EnemyHealth.cs",
+              "ToolTip": "D:\\PRU212-UnityGame-tai2\\Assets\\Script\\Enemy\\EnemyHealth.cs",
+              "RelativeToolTip": "Assets\\Script\\Enemy\\EnemyHealth.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-08T13:04:33.13Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "EnemyPatrol.cs",
+              "DocumentMoniker": "D:\\PRU212-UnityGame-tai2\\Assets\\Script\\Enemy\\EnemyPatrol.cs",
+              "RelativeDocumentMoniker": "Assets\\Script\\Enemy\\EnemyPatrol.cs",
+              "ToolTip": "D:\\PRU212-UnityGame-tai2\\Assets\\Script\\Enemy\\EnemyPatrol.cs",
+              "RelativeToolTip": "Assets\\Script\\Enemy\\EnemyPatrol.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-08T13:12:01.48Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "PlayerMovement.cs",
+              "DocumentMoniker": "D:\\PRU212-UnityGame-tai2\\Assets\\Script\\Player\\PlayerMovement.cs",
+              "RelativeDocumentMoniker": "Assets\\Script\\Player\\PlayerMovement.cs",
+              "ToolTip": "D:\\PRU212-UnityGame-tai2\\Assets\\Script\\Player\\PlayerMovement.cs",
+              "RelativeToolTip": "Assets\\Script\\Player\\PlayerMovement.cs",
+              "ViewState": "AQIAAE4AAAAAAAAAAAAAAHgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-07T20:19:00.712Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "EnemyHealthBar.cs",
+              "DocumentMoniker": "D:\\PRU212-UnityGame-tai2\\Assets\\Script\\Enemy\\EnemyHealthBar.cs",
+              "RelativeDocumentMoniker": "Assets\\Script\\Enemy\\EnemyHealthBar.cs",
+              "ToolTip": "D:\\PRU212-UnityGame-tai2\\Assets\\Script\\Enemy\\EnemyHealthBar.cs",
+              "RelativeToolTip": "Assets\\Script\\Enemy\\EnemyHealthBar.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-08T13:11:59.575Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
