@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: fd8cfab7f90b5d247ab91a160135288f
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 117493
+  packageName: Too Cube Forest, the 2D platformer game tile set.
+  packageVersion: 1.0
+  assetPath: Assets/TooCubeForest/images/Forest_terrain_slope_dirt_grass(summer)_128px_1.asset
+  uploadId: 248450

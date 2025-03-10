@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 6a1e90a12ae79144fb2dc3b44598bc06
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 117493
+  packageName: Too Cube Forest, the 2D platformer game tile set.
+  packageVersion: 1.0
+  assetPath: Assets/TooCubeForest/images/Forest_deco_fragileBlocks_128px_1.asset
+  uploadId: 248450

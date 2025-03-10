@@ -1,0 +1,230 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\DANG TO\\Documents\\WorkSpace\\Unity\\Project team\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{46043EA3-AE80-47E6-4BED-BB99E47BA97A}|Assembly-CSharp.csproj|C:\\Users\\DANG TO\\Documents\\WorkSpace\\Unity\\Project team\\assets\\scripts-d\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{46043EA3-AE80-47E6-4BED-BB99E47BA97A}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts-d\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{46043EA3-AE80-47E6-4BED-BB99E47BA97A}|Assembly-CSharp.csproj|c:\\users\\dang to\\documents\\workspace\\unity\\project team\\assets\\scripts-d\\enemy21.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{46043EA3-AE80-47E6-4BED-BB99E47BA97A}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts-d\\enemy21.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{46043EA3-AE80-47E6-4BED-BB99E47BA97A}|Assembly-CSharp.csproj|C:\\Users\\DANG TO\\Documents\\WorkSpace\\Unity\\Project team\\assets\\scripts-d\\enemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{46043EA3-AE80-47E6-4BED-BB99E47BA97A}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts-d\\enemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{46043EA3-AE80-47E6-4BED-BB99E47BA97A}|Assembly-CSharp.csproj|C:\\Users\\DANG TO\\Documents\\WorkSpace\\Unity\\Project team\\assets\\scripts-d\\fireball.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{46043EA3-AE80-47E6-4BED-BB99E47BA97A}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts-d\\fireball.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{46043EA3-AE80-47E6-4BED-BB99E47BA97A}|Assembly-CSharp.csproj|C:\\Users\\DANG TO\\Documents\\WorkSpace\\Unity\\Project team\\assets\\scripts-d\\water.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{46043EA3-AE80-47E6-4BED-BB99E47BA97A}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts-d\\water.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{46043EA3-AE80-47E6-4BED-BB99E47BA97A}|Assembly-CSharp.csproj|C:\\Users\\DANG TO\\Documents\\WorkSpace\\Unity\\Project team\\assets\\scripts-d\\bg.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{46043EA3-AE80-47E6-4BED-BB99E47BA97A}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts-d\\bg.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{46043EA3-AE80-47E6-4BED-BB99E47BA97A}|Assembly-CSharp.csproj|C:\\Users\\DANG TO\\Documents\\WorkSpace\\Unity\\Project team\\assets\\scripts-d\\doortrigger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{46043EA3-AE80-47E6-4BED-BB99E47BA97A}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts-d\\doortrigger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{46043EA3-AE80-47E6-4BED-BB99E47BA97A}|Assembly-CSharp.csproj|C:\\Users\\DANG TO\\Documents\\WorkSpace\\Unity\\Project team\\assets\\scripts-d\\gameover.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{46043EA3-AE80-47E6-4BED-BB99E47BA97A}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts-d\\gameover.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{46043EA3-AE80-47E6-4BED-BB99E47BA97A}|Assembly-CSharp.csproj|C:\\Users\\DANG TO\\Documents\\WorkSpace\\Unity\\Project team\\assets\\scripts-d\\grounddisappear.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{46043EA3-AE80-47E6-4BED-BB99E47BA97A}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts-d\\grounddisappear.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{46043EA3-AE80-47E6-4BED-BB99E47BA97A}|Assembly-CSharp.csproj|C:\\Users\\DANG TO\\Documents\\WorkSpace\\Unity\\Project team\\assets\\scripts-d\\groundmovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{46043EA3-AE80-47E6-4BED-BB99E47BA97A}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts-d\\groundmovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{46043EA3-AE80-47E6-4BED-BB99E47BA97A}|Assembly-CSharp.csproj|C:\\Users\\DANG TO\\Documents\\WorkSpace\\Unity\\Project team\\assets\\scripts-d\\playerattackfireball.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{46043EA3-AE80-47E6-4BED-BB99E47BA97A}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts-d\\playerattackfireball.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{46043EA3-AE80-47E6-4BED-BB99E47BA97A}|Assembly-CSharp.csproj|C:\\Users\\DANG TO\\Documents\\WorkSpace\\Unity\\Project team\\assets\\scripts-d\\scenemanagement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{46043EA3-AE80-47E6-4BED-BB99E47BA97A}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts-d\\scenemanagement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{46043EA3-AE80-47E6-4BED-BB99E47BA97A}|Assembly-CSharp.csproj|C:\\Users\\DANG TO\\Documents\\WorkSpace\\Unity\\Project team\\assets\\scripts-d\\sounds.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{46043EA3-AE80-47E6-4BED-BB99E47BA97A}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts-d\\sounds.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Water.cs",
+              "DocumentMoniker": "C:\\Users\\DANG TO\\Documents\\WorkSpace\\Unity\\Project team\\Assets\\Scripts-D\\Water.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts-D\\Water.cs",
+              "ToolTip": "C:\\Users\\DANG TO\\Documents\\WorkSpace\\Unity\\Project team\\Assets\\Scripts-D\\Water.cs",
+              "RelativeToolTip": "Assets\\Scripts-D\\Water.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-09T15:00:54.269Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Sounds.cs",
+              "DocumentMoniker": "C:\\Users\\DANG TO\\Documents\\WorkSpace\\Unity\\Project team\\Assets\\Scripts-D\\Sounds.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts-D\\Sounds.cs",
+              "ToolTip": "C:\\Users\\DANG TO\\Documents\\WorkSpace\\Unity\\Project team\\Assets\\Scripts-D\\Sounds.cs",
+              "RelativeToolTip": "Assets\\Scripts-D\\Sounds.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-09T15:00:38.093Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "SceneManageMent.cs",
+              "DocumentMoniker": "C:\\Users\\DANG TO\\Documents\\WorkSpace\\Unity\\Project team\\Assets\\Scripts-D\\SceneManageMent.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts-D\\SceneManageMent.cs",
+              "ToolTip": "C:\\Users\\DANG TO\\Documents\\WorkSpace\\Unity\\Project team\\Assets\\Scripts-D\\SceneManageMent.cs",
+              "RelativeToolTip": "Assets\\Scripts-D\\SceneManageMent.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-09T15:00:19.012Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "PlayerAttackFireball.cs",
+              "DocumentMoniker": "C:\\Users\\DANG TO\\Documents\\WorkSpace\\Unity\\Project team\\Assets\\Scripts-D\\PlayerAttackFireball.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts-D\\PlayerAttackFireball.cs",
+              "ToolTip": "C:\\Users\\DANG TO\\Documents\\WorkSpace\\Unity\\Project team\\Assets\\Scripts-D\\PlayerAttackFireball.cs",
+              "RelativeToolTip": "Assets\\Scripts-D\\PlayerAttackFireball.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACcAAABUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-09T14:59:31.342Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Player.cs",
+              "DocumentMoniker": "C:\\Users\\DANG TO\\Documents\\WorkSpace\\Unity\\Project team\\Assets\\Scripts-D\\Player.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts-D\\Player.cs",
+              "ToolTip": "C:\\Users\\DANG TO\\Documents\\WorkSpace\\Unity\\Project team\\Assets\\Scripts-D\\Player.cs",
+              "RelativeToolTip": "Assets\\Scripts-D\\Player.cs",
+              "ViewState": "AQIAANYAAAAAAAAAAADwv+UAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-09T14:59:17.774Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "GroundMovement.cs",
+              "DocumentMoniker": "C:\\Users\\DANG TO\\Documents\\WorkSpace\\Unity\\Project team\\Assets\\Scripts-D\\GroundMovement.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts-D\\GroundMovement.cs",
+              "ToolTip": "C:\\Users\\DANG TO\\Documents\\WorkSpace\\Unity\\Project team\\Assets\\Scripts-D\\GroundMovement.cs",
+              "RelativeToolTip": "Assets\\Scripts-D\\GroundMovement.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-09T14:58:55.214Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "GroundDisappear.cs",
+              "DocumentMoniker": "C:\\Users\\DANG TO\\Documents\\WorkSpace\\Unity\\Project team\\Assets\\Scripts-D\\GroundDisappear.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts-D\\GroundDisappear.cs",
+              "ToolTip": "C:\\Users\\DANG TO\\Documents\\WorkSpace\\Unity\\Project team\\Assets\\Scripts-D\\GroundDisappear.cs",
+              "RelativeToolTip": "Assets\\Scripts-D\\GroundDisappear.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-09T14:58:36.994Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "GameOver.cs",
+              "DocumentMoniker": "C:\\Users\\DANG TO\\Documents\\WorkSpace\\Unity\\Project team\\Assets\\Scripts-D\\GameOver.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts-D\\GameOver.cs",
+              "ToolTip": "C:\\Users\\DANG TO\\Documents\\WorkSpace\\Unity\\Project team\\Assets\\Scripts-D\\GameOver.cs",
+              "RelativeToolTip": "Assets\\Scripts-D\\GameOver.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-09T14:58:07.35Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Fireball.cs",
+              "DocumentMoniker": "C:\\Users\\DANG TO\\Documents\\WorkSpace\\Unity\\Project team\\Assets\\Scripts-D\\Fireball.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts-D\\Fireball.cs",
+              "ToolTip": "C:\\Users\\DANG TO\\Documents\\WorkSpace\\Unity\\Project team\\Assets\\Scripts-D\\Fireball.cs",
+              "RelativeToolTip": "Assets\\Scripts-D\\Fireball.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-09T14:57:55.248Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Enemy21.cs",
+              "DocumentMoniker": "C:\\Users\\DANG TO\\Documents\\WorkSpace\\Unity\\Project team\\Assets\\Scripts-D\\Enemy21.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts-D\\Enemy21.cs",
+              "ToolTip": "C:\\Users\\DANG TO\\Documents\\WorkSpace\\Unity\\Project team\\Assets\\Scripts-D\\Enemy21.cs",
+              "RelativeToolTip": "Assets\\Scripts-D\\Enemy21.cs",
+              "ViewState": "AQIAAFgAAAAAAAAAAAAIwG0AAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-09T14:57:42.606Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Enemy.cs",
+              "DocumentMoniker": "C:\\Users\\DANG TO\\Documents\\WorkSpace\\Unity\\Project team\\Assets\\Scripts-D\\Enemy.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts-D\\Enemy.cs",
+              "ToolTip": "C:\\Users\\DANG TO\\Documents\\WorkSpace\\Unity\\Project team\\Assets\\Scripts-D\\Enemy.cs",
+              "RelativeToolTip": "Assets\\Scripts-D\\Enemy.cs",
+              "ViewState": "AQIAAJUAAAAAAAAAAAAcwI8AAABOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-09T14:57:27.934Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "DoorTrigger.cs",
+              "DocumentMoniker": "C:\\Users\\DANG TO\\Documents\\WorkSpace\\Unity\\Project team\\Assets\\Scripts-D\\DoorTrigger.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts-D\\DoorTrigger.cs",
+              "ToolTip": "C:\\Users\\DANG TO\\Documents\\WorkSpace\\Unity\\Project team\\Assets\\Scripts-D\\DoorTrigger.cs",
+              "RelativeToolTip": "Assets\\Scripts-D\\DoorTrigger.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-09T14:57:06.85Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "bg.cs",
+              "DocumentMoniker": "C:\\Users\\DANG TO\\Documents\\WorkSpace\\Unity\\Project team\\Assets\\Scripts-D\\bg.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts-D\\bg.cs",
+              "ToolTip": "C:\\Users\\DANG TO\\Documents\\WorkSpace\\Unity\\Project team\\Assets\\Scripts-D\\bg.cs",
+              "RelativeToolTip": "Assets\\Scripts-D\\bg.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-09T14:56:04.411Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

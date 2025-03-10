@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 076197ff9cb95e448bcb2ef441fc1755
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 117493
+  packageName: Too Cube Forest, the 2D platformer game tile set.
+  packageVersion: 1.0
+  assetPath: Assets/TooCubeForest/tileMaps/TCF_decorations.prefab
+  uploadId: 248450

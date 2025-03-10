@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 3cfa3f9f50b5bf741af827c2cb98a725
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 117493
+  packageName: Too Cube Forest, the 2D platformer game tile set.
+  packageVersion: 1.0
+  assetPath: Assets/TooCubeForest/images/Forest_terrain_slope_blue_128px_1.asset
+  uploadId: 248450
