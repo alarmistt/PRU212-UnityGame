@@ -9,8 +9,10 @@ public class HealthCollectibleDuc : MonoBehaviour
     {
         if(collision.tag == "Player")
         {
-            SoundManagerDuc.instance.PlaySound(pickupSound);
-            collision.GetComponent<HealthDuc>().AddHealth(healthValue);
+            //SoundManagerDuc.instance.PlaySound(pickupSound);
+            //collision.GetComponent<HealthDuc>().AddHealth(healthValue);
+            //gameObject.SetActive(false);
+            collision.GetComponent<DPlayerMovement>().HealHealth((int)healthValue);
             gameObject.SetActive(false);
         }
     }

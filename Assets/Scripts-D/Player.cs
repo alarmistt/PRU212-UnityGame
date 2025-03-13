@@ -158,6 +158,14 @@ public class DPlayerMovement : MonoBehaviour
         maxMana -= mana;
     }
 
+    public void HealHealth(int heal)
+    {
+        if (heal <= 0)
+        {
+            return;
+        }
+        maxHealth += heal;
+    }
     private void OnCollisionEnter2D(Collision2D collision)
     {
         if (collision.gameObject.tag == "Ground")
