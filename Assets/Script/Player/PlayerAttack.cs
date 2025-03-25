@@ -3,12 +3,19 @@ using UnityEngine;
 public class PlayerAttack : MonoBehaviour
 {
     [SerializeField] private float attackCooldown;
+    [SerializeField] private float shootCooldown = 3.0f;
     [SerializeField] private Transform firePoint;
     [SerializeField] private GameObject[] fireballs;
+    [Header("Audio Settings")]
+    [SerializeField] private AudioSource audioSource;
+    [SerializeField] private AudioClip attackSound;
+    [SerializeField] private AudioClip shootSound;
+
     public Transform attackPoint;
     public float attackRange = 0.5f;
     public int attackDamage = 30;
     public LayerMask enemyLayers;
+
     private Animator anim;
     private PlayerMovement playerMovement;
     private float cooldownTimer = Mathf.Infinity;
@@ -17,6 +24,7 @@ public class PlayerAttack : MonoBehaviour
     {
         anim = GetComponent<Animator>();
         playerMovement = GetComponent<PlayerMovement>();
+        audioSource = GetComponent<AudioSource>(); // L?y AudioSource t? ??i t??ng
     }
 
     private void Update()
@@ -24,18 +32,23 @@ public class PlayerAttack : MonoBehaviour
         if (Input.GetMouseButton(0) && cooldownTimer > attackCooldown && playerMovement.CanAttack())
             Attack();
 
-        if (Input.GetMouseButton(1) && cooldownTimer > attackCooldown && playerMovement.CanAttack())
+        if (Input.GetMouseButton(1) && cooldownTimer > shootCooldown && playerMovement.CanAttack())
             Shooting();
+
         cooldownTimer += Time.deltaTime;
     }
+
     private void Attack()
     {
         anim.SetTrigger("playerAttack");
         cooldownTimer = 0;
+
+        // Phát âm thanh t?n công
+        PlaySound(attackSound);
+
         Collider2D[] hitEnemies = Physics2D.OverlapCircleAll(attackPoint.position, attackRange, enemyLayers);
         foreach (Collider2D enemy in hitEnemies)
         {
-
             if (enemy.CompareTag("Enemy"))
             {
                 enemy.GetComponent<EnemyHealth>().TakeDamage(attackDamage);
@@ -46,14 +59,19 @@ public class PlayerAttack : MonoBehaviour
             }
         }
     }
+
     private void Shooting()
     {
         anim.SetTrigger("playerShooting");
         cooldownTimer = 0;
 
+        // Phát âm thanh b?n
+        PlaySound(shootSound);
+
         fireballs[FindFireball()].transform.position = firePoint.position;
         fireballs[FindFireball()].GetComponent<Projectile>().SetDirection(Mathf.Sign(transform.localScale.x));
     }
+
     private int FindFireball()
     {
         for (int i = 0; i < fireballs.Length; i++)
@@ -62,5 +80,21 @@ public class PlayerAttack : MonoBehaviour
                 return i;
         }
         return 0;
+    }
+
+    private void PlaySound(AudioClip clip)
+    {
+        if (audioSource != null && clip != null)
+        {
+            audioSource.PlayOneShot(clip);
+        }
+    }
+
+    private void OnDrawGizmosSelected()
+    {
+        if (attackPoint == null) return;
+
+        Gizmos.color = Color.red;
+        Gizmos.DrawWireSphere(attackPoint.position, attackRange);
     }
 }

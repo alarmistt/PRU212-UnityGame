@@ -2,22 +2,23 @@
 
 public class BossAimShoot : MonoBehaviour
 {
-    [Header("Cấu hình bắn")]
+    [Header("Shooting Configuration")]
     public GameObject bulletPrefab;
     public Transform firePoint;
     public Transform player;
     public float bulletSpeed = 5f;
     public float defaultFireRate = 1.5f;
-    public float enrageFireRate = 0.2f; // Cooldown khi còn 400 máu
+    public float enrageFireRate = 1f;
     public float attackRange = 5f;
     public float detectRange = 10f;
 
-    [Header("Cấu hình di chuyển")]
-    public float moveSpeed = 2f;
+    [Header("Movement Configuration")]
+    public float moveSpeed = 4f;
+    public float enrageMoveSpeed = 6f;
     private Rigidbody2D rb;
     private bool isChasing = false;
 
-    [Header("Cấu hình animation")]
+    [Header("Animation Configuration")]
     public Animator animator;
     private float baseAnimationSpeed = 1f;
     private float fireRate;
@@ -45,10 +46,11 @@ public class BossAimShoot : MonoBehaviour
         float distance = Vector2.Distance(transform.position, player.position);
         animator.SetFloat("distance", distance);
 
-        // Kiểm tra máu và giảm cooldown nếu máu còn 400 trở xuống
-        if (bossHealth.CurrentHealth <= 600)
+        // Enrage mode when health drops
+        if (bossHealth.CurrentHealth <= 2300)
         {
-            fireRate = enrageFireRate; // Giảm cooldown xuống 0.2s
+            fireRate = enrageFireRate;
+            moveSpeed = enrageMoveSpeed;
         }
 
         if (distance <= attackRange)
@@ -79,8 +81,16 @@ public class BossAimShoot : MonoBehaviour
 
         if (Time.time > nextFireTime)
         {
-            // Cập nhật tốc độ animation dựa vào fireRate
-            animator.speed = baseAnimationSpeed * (1.5f / fireRate);
+            AnimatorStateInfo stateInfo = animator.GetCurrentAnimatorStateInfo(0);
+
+            if (stateInfo.IsName("Attack"))
+            {
+                animator.speed = baseAnimationSpeed * (1.5f / fireRate);
+            }
+            else
+            {
+                animator.speed = baseAnimationSpeed;
+            }
             animator.SetTrigger("isAttack");
             nextFireTime = Time.time + fireRate;
         }
@@ -107,7 +117,6 @@ public class BossAimShoot : MonoBehaviour
     {
         Vector2 moveDirection = (player.position - transform.position).normalized;
         rb.linearVelocity = moveDirection * moveSpeed;
-
         FlipBoss(moveDirection.x);
     }
 
@@ -125,14 +134,71 @@ public class BossAimShoot : MonoBehaviour
     {
         if (isDead) return;
         isDead = true;
-
-        Debug.Log("Boss đã chết!");
-
         animator.SetBool("isDie", true);
         GetComponent<Collider2D>().enabled = false;
         rb.linearVelocity = Vector2.zero;
-        rb.isKinematic = true;
-
+        rb.bodyType = RigidbodyType2D.Kinematic;
         Destroy(gameObject, 2f);
+    }
+
+    public void UpdatePlayerReference(Transform newPlayer)
+    {
+        player = newPlayer;
+    }
+
+    public void ResetBoss()
+    {
+        // Check and reassign components if needed
+        if (bossHealth == null)
+        {
+            bossHealth = GetComponent<BossHealth>();
+            if (bossHealth == null)
+            {
+                Debug.LogError("BossHealth component not found!");
+                return;
+            }
+        }
+
+        if (animator == null)
+        {
+            animator = GetComponent<Animator>();
+            if (animator == null)
+            {
+                Debug.LogError("Animator component not found!");
+                return;
+            }
+        }
+
+        if (rb == null)
+        {
+            rb = GetComponent<Rigidbody2D>();
+            if (rb == null)
+            {
+                Debug.LogError("Rigidbody2D component not found!");
+                return;
+            }
+        }
+
+        // Reset health
+        bossHealth.CurrentHealth = bossHealth.startingHealth;
+
+        // Reset animation
+        animator.SetBool("isDie", false);
+        animator.speed = baseAnimationSpeed;
+        animator.Play("Idle");
+
+        // Reset states
+        isDead = false;
+        fireRate = defaultFireRate;
+        moveSpeed = 2f;  // Reset move speed
+        isChasing = false;
+        rb.linearVelocity = Vector2.zero;
+
+        Debug.Log("Boss has been successfully reset!");
+    }
+
+    public void SetMoveSpeed(float speed)
+    {
+        moveSpeed = speed;
     }
 }

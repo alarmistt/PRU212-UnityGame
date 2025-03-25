@@ -4,7 +4,7 @@ public class BossHealth : MonoBehaviour
 {
     [Header("Health")]
     [SerializeField] public float startingHealth;
-    public float CurrentHealth { get; private set; }
+    public float CurrentHealth { get; set; }
 
     private Animator anim;
     private BossAimShoot bossAimShoot;

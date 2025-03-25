@@ -1,102 +1,95 @@
-﻿using System;
-using UnityEngine;
+﻿using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour
 {
-    [Header("Movement Settings")]
-    [SerializeField] private float moveSpeed = 8f;
-    [SerializeField] private float acceleration = 15f;
+    [SerializeField] private float speed;
+    [SerializeField] private float jumpPower;
+    [SerializeField] private LayerMask groundLayer;
+    private Rigidbody2D body;
+    private Animator anim;
+    private BoxCollider2D boxCollider;
+    private float wallJumpCooldown;
+    private float horizontalInput;
 
-    [Header("Jump Settings")]
-    [SerializeField] private float jumpPower = 12f;
-    [SerializeField] private float fallMultiplier = 2.5f;
-    [SerializeField] private float lowJumpMultiplier = 2f;
+    [Header("Audio Settings")]
+    [SerializeField] private AudioSource audioSource;
+    [SerializeField] private AudioClip jumpSound;
+    [SerializeField] private AudioClip walkSound;
+    public AudioSource footstepSource;
+    private bool isPlayingRunSound = false;
 
     [Header("Boundary Settings")]
     public Vector2 minBounds;
     public Vector2 maxBounds;
 
-    [Header("References")]
-    [SerializeField] private LayerMask groundLayer;
-    private Rigidbody2D body;
-    private Animator anim;
-    private BoxCollider2D boxCollider;
-
-    private float horizontalInput;
-    private float velocitySmoothing; // Biến hỗ trợ SmoothDamp
-    private Vector3 originalScale; // Lưu scale gốc
-
     private void Awake()
     {
+        // Grab references for rigidBody & animator from object
         body = GetComponent<Rigidbody2D>();
         anim = GetComponent<Animator>();
         boxCollider = GetComponent<BoxCollider2D>();
-
-        originalScale = transform.localScale; // Lưu lại kích thước gốc
     }
 
     private void Update()
     {
-        HandleInput();
-        UpdateAnimations();
-        ApplyJumpPhysics();
         LimitPlayerPosition();
-    }
+        horizontalInput = Input.GetAxis("Horizontal");
 
-    private void FixedUpdate()
-    {
-        HandleMovement();
-    }
-
-    private void HandleInput()
-    {
-        horizontalInput = Input.GetAxisRaw("Horizontal");
-
-        if (Input.GetKeyDown(KeyCode.Space) && isGrounded())
+        if (horizontalInput > 0.01f)
         {
-            Jump();
+            transform.localScale = new Vector3(Mathf.Abs(transform.localScale.x), transform.localScale.y, transform.localScale.z);
         }
-    }
-
-    private void HandleMovement()
-    {
-        float targetSpeed = horizontalInput * moveSpeed;
-        float smoothSpeed = Mathf.SmoothDamp(body.linearVelocity.x, targetSpeed, ref velocitySmoothing, 0.05f);
-
-        body.linearVelocity = new Vector2(smoothSpeed, body.linearVelocity.y);
-
-        if (horizontalInput > 0)
-            transform.localScale = new Vector3(originalScale.x, originalScale.y, originalScale.z);
-        else if (horizontalInput < 0)
-            transform.localScale = new Vector3(-originalScale.x, originalScale.y, originalScale.z);
-    }
-
-    private void Jump()
-    {
-        body.linearVelocity = new Vector2(body.linearVelocity.x, jumpPower);
-        anim.SetTrigger("playerJump");
-    }
-
-    private void ApplyJumpPhysics()
-    {
-        if (body.linearVelocity.y < 0)
+        else if (horizontalInput < -0.01f)
         {
-            body.gravityScale = fallMultiplier;
+            transform.localScale = new Vector3(-Mathf.Abs(transform.localScale.x), transform.localScale.y, transform.localScale.z);
         }
-        else if (body.linearVelocity.y > 0 && !Input.GetKey(KeyCode.Space))
+        HandleRunSound();
+        // set animator parameters
+        anim.SetBool("playerWalking", horizontalInput != 0);
+        anim.SetBool("grounded", isGrounded());
+
+        // Wall jump logic
+        if (wallJumpCooldown < 0.2f)
         {
-            body.gravityScale = lowJumpMultiplier;
+            // Di chuyển theo chiều ngang
+            body.linearVelocity = new Vector2(horizontalInput * speed, body.linearVelocity.y);
+
+            if (isGrounded())  // Đặt lại gravity khi đang trên mặt đất
+            {
+                body.gravityScale = 5;
+            }
+
+            if (Input.GetKeyDown(KeyCode.Space) && isGrounded()) // Chỉ nhảy khi đang trên mặt đất
+            {
+                Jump();
+                audioSource.PlayOneShot(jumpSound);
+            }
         }
         else
         {
-            body.gravityScale = 1f;
+            wallJumpCooldown += Time.deltaTime;
         }
     }
-
-    private void UpdateAnimations()
+    private void HandleRunSound()
     {
-        anim.SetBool("playerWalking", horizontalInput != 0);
-        anim.SetBool("grounded", isGrounded());
+        if (horizontalInput != 0 && walkSound)
+        {
+            if (!isPlayingRunSound && walkSound != null)
+            {
+                audioSource.clip = walkSound;
+                audioSource.loop = true;
+                audioSource.Play();
+                isPlayingRunSound = true;
+            }
+        }
+        else
+        {
+            if (isPlayingRunSound)
+            {
+                audioSource.Stop();
+                isPlayingRunSound = false;
+            }
+        }
     }
 
     private void LimitPlayerPosition()
@@ -106,10 +99,31 @@ public class PlayerMovement : MonoBehaviour
         newPosition.y = Mathf.Max(newPosition.y, minBounds.y);
         transform.position = newPosition;
     }
+    private void Jump()
+    {
+        if (isGrounded())
+        {
+            body.linearVelocity = new Vector2(body.linearVelocity.x, jumpPower);
+            anim.SetTrigger("playerJump");
+        }
+        else if (!isGrounded())
+        {
+            if (horizontalInput == 0)
+            {
+                body.linearVelocity = new Vector2(-Mathf.Sign(transform.localScale.x) * 10, 0);
+                transform.localScale = new Vector3(-Mathf.Sign(transform.localScale.x), transform.localScale.y, transform.localScale.z);
+            }
+            else
+            {
+                body.linearVelocity = new Vector2(-Mathf.Sign(transform.localScale.x) * 3, 6);
+            }
+            wallJumpCooldown = 0;
+        }
+    }
 
     private bool isGrounded()
     {
-        RaycastHit2D raycastHit = Physics2D.BoxCast(boxCollider.bounds.center, boxCollider.bounds.size, 0, Vector2.down, 0.2f, groundLayer);
+        RaycastHit2D raycastHit = Physics2D.BoxCast(boxCollider.bounds.center, boxCollider.bounds.size, 0, Vector2.down, 0.1f, groundLayer);
         return raycastHit.collider != null;
     }
 

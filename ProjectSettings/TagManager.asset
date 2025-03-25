@@ -8,16 +8,18 @@ TagManager:
   - Trap
   - KillZone
   - Enemy
+  - Ground
+  - Boss
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - Player
   - Water
   - UI
   - Ground
   - Enemy
-  - 
+  - Item
   - 
   - 
   - 

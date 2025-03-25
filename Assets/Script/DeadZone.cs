@@ -10,7 +10,7 @@ public class DeathZone : MonoBehaviour
             Animator anim  = other.GetComponent<Animator>();
             if (playerDie != null)
             {
-                playerDie.Die( anim); 
+                playerDie.Die(); 
             }
         }
     }

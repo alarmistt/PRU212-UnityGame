@@ -2,9 +2,9 @@ using UnityEngine;
 
 public class BossDetection : MonoBehaviour
 {
-    public BossAimShoot bossScript; // Tham chi?u ??n script t?n công c?a Boss
-    public Transform playerTransform; // Tham chi?u ??n Transform c?a Player
-    [SerializeField]public float attackRange = 10f; // Ph?m vi t?n công c?a Boss
+    public BossAimShoot bossScript;
+    public Transform playerTransform;
+    [SerializeField]public float attackRange = 10f; 
 
     private bool isPlayerInRange = false;
 
@@ -12,10 +12,10 @@ public class BossDetection : MonoBehaviour
     {
         if (playerTransform == null)
         {
-            Debug.LogError("Player Transform ch?a ???c gán trong Inspector.");
+            Debug.LogError("Player Transform null");
         }
 
-        bossScript.enabled = false; // Ban ??u t?t ch?c n?ng t?n công
+        bossScript.enabled = false;
     }
 
     void Update()
@@ -27,12 +27,12 @@ public class BossDetection : MonoBehaviour
             if (distanceToPlayer <= attackRange && !isPlayerInRange)
             {
                 isPlayerInRange = true;
-                bossScript.enabled = true; // Kích ho?t t?n công
+                bossScript.enabled = true; 
             }
             else if (distanceToPlayer > attackRange && isPlayerInRange)
             {
                 isPlayerInRange = false;
-                bossScript.enabled = false; // Ng?ng t?n công
+                bossScript.enabled = false;
             }
         }
     }

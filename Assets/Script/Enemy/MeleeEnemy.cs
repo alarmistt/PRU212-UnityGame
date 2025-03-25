@@ -65,11 +65,23 @@ public class MeleeEnemy : MonoBehaviour
     }
     public void Die()
     {
-        enemyPatrol.enabled = false;
+        if (enemyPatrol != null)
+        {
+            enemyPatrol.SetDie(true); 
+            enemyPatrol.enabled = false;
+        }
+        Rigidbody2D rb = GetComponent<Rigidbody2D>();
+        if (rb != null)
+        {
+            rb.linearVelocity = Vector2.zero;
+        }
+
         anim.SetBool("isDie", true);
+
         GetComponent<Collider2D>().enabled = false;
         Destroy(gameObject, 2f);
     }
+
     private void OnDrawGizmos()
     {
         Gizmos.color = Color.red;
