@@ -35,6 +35,24 @@ public class HealthbarDuc : MonoBehaviour
 
     private void Update()
     {
+        if (slider == null)
+        {
+            Debug.LogError("Slider", this);
+            return;
+        }
+
+        if (Camera.main == null)
+        {
+            Debug.LogError("Main Camera!");
+            return;
+        }
+
+        if (transform.parent == null)
+        {
+            Debug.LogError("Object parent!", this);
+            return;
+        }
+
         slider.transform.position = Camera.main.WorldToScreenPoint(transform.parent.position + Offset);
     }
     //[SerializeField] private Health playerHealth;

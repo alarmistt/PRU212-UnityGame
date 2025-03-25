@@ -1,14 +1,34 @@
+using System.Collections;
 using UnityEngine;
 
 public class EnemyDamageDuc : MonoBehaviour
 {
     [SerializeField] protected float damage;
+    private bool isPlayerInside = false;
 
-    protected void OnTriggerEnter2D(Collider2D collision)
+    public void OnTriggerEnter2D(Collider2D collision)
     {
-        if(collision.tag == "Player")
+        if (collision.CompareTag("Player"))
         {
-            collision.GetComponent<HealthDuc>().TakeDamage(damage);
+            isPlayerInside = true;
+            StartCoroutine(DamageOverTime(collision.GetComponent<HealthDuc>()));
+        }
+    }
+
+    public void OnTriggerExit2D(Collider2D collision)
+    {
+        if (collision.CompareTag("Player"))
+        {
+            isPlayerInside = false;
+        }
+    }
+
+    private IEnumerator DamageOverTime(HealthDuc playerHealth)
+    {
+        while (isPlayerInside)
+        {
+            playerHealth.TakeDamage(damage);
+            yield return new WaitForSeconds(1f); // waittime to damage
         }
     }
 }

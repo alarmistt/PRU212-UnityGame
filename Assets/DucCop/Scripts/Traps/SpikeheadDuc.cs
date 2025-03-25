@@ -58,7 +58,7 @@ public class SpikeheadDuc : EnemyDamageDuc
         SoundManagerDuc.instance.PlaySound(impactSound);
         base.OnTriggerEnter2D(collision);
 
-        if (collision.gameObject.layer == 8)
+        if (collision.gameObject.layer == 6)
         {
             Destroy(gameObject); 
         }

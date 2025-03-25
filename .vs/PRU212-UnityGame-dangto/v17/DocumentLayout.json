@@ -3,48 +3,48 @@
   "WorkspaceRootPath": "G:\\Semester7\\PRU\\GameDev\\PRU212-UnityGame-dangto\\PRU212-UnityGame-dangto\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|G:\\Semester7\\PRU\\GameDev\\PRU212-UnityGame-dangto\\PRU212-UnityGame-dangto\\Library\\PackageCache\\com.unity.purchasing\\Editor\\UnityPurchasingEditor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Library\\PackageCache\\com.unity.purchasing\\Editor\\UnityPurchasingEditor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F4AC4A94-E958-6745-5C23-4A6B1A3CC4F7}|Assembly-CSharp.csproj|g:\\semester7\\pru\\gamedev\\pru212-unitygame-dangto\\pru212-unitygame-dangto\\assets\\duccop\\scripts\\movingplatformd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F4AC4A94-E958-6745-5C23-4A6B1A3CC4F7}|Assembly-CSharp.csproj|solutionrelative:assets\\duccop\\scripts\\movingplatformd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F4AC4A94-E958-6745-5C23-4A6B1A3CC4F7}|Assembly-CSharp.csproj|g:\\semester7\\pru\\gamedev\\pru212-unitygame-dangto\\pru212-unitygame-dangto\\assets\\duccop\\scripts\\player\\playerattackduc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F4AC4A94-E958-6745-5C23-4A6B1A3CC4F7}|Assembly-CSharp.csproj|solutionrelative:assets\\duccop\\scripts\\player\\playerattackduc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F4AC4A94-E958-6745-5C23-4A6B1A3CC4F7}|Assembly-CSharp.csproj|g:\\semester7\\pru\\gamedev\\pru212-unitygame-dangto\\pru212-unitygame-dangto\\assets\\script\\movingplatform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F4AC4A94-E958-6745-5C23-4A6B1A3CC4F7}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\movingplatform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F4AC4A94-E958-6745-5C23-4A6B1A3CC4F7}|Assembly-CSharp.csproj|g:\\semester7\\pru\\gamedev\\pru212-unitygame-dangto\\pru212-unitygame-dangto\\assets\\duccop\\scripts\\player\\playermovementduc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F4AC4A94-E958-6745-5C23-4A6B1A3CC4F7}|Assembly-CSharp.csproj|solutionrelative:assets\\duccop\\scripts\\player\\playermovementduc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F4AC4A94-E958-6745-5C23-4A6B1A3CC4F7}|Assembly-CSharp.csproj|G:\\Semester7\\PRU\\GameDev\\PRU212-UnityGame-dangto\\PRU212-UnityGame-dangto\\assets\\duccop\\scripts\\core\\soundmanagerduc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F4AC4A94-E958-6745-5C23-4A6B1A3CC4F7}|Assembly-CSharp.csproj|solutionrelative:assets\\duccop\\scripts\\core\\soundmanagerduc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F4AC4A94-E958-6745-5C23-4A6B1A3CC4F7}|Assembly-CSharp.csproj|g:\\semester7\\pru\\gamedev\\pru212-unitygame-dangto\\pru212-unitygame-dangto\\assets\\duccop\\scripts\\player\\playerrespawnduc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F4AC4A94-E958-6745-5C23-4A6B1A3CC4F7}|Assembly-CSharp.csproj|solutionrelative:assets\\duccop\\scripts\\player\\playerrespawnduc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F4AC4A94-E958-6745-5C23-4A6B1A3CC4F7}|Assembly-CSharp.csproj|G:\\Semester7\\PRU\\GameDev\\PRU212-UnityGame-dangto\\PRU212-UnityGame-dangto\\assets\\duccop\\scripts\\core\\cameracontrollerduc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F4AC4A94-E958-6745-5C23-4A6B1A3CC4F7}|Assembly-CSharp.csproj|solutionrelative:assets\\duccop\\scripts\\core\\cameracontrollerduc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F4AC4A94-E958-6745-5C23-4A6B1A3CC4F7}|Assembly-CSharp.csproj|g:\\semester7\\pru\\gamedev\\pru212-unitygame-dangto\\pru212-unitygame-dangto\\assets\\duccop\\scripts\\traps\\arrowtrapduc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{F4AC4A94-E958-6745-5C23-4A6B1A3CC4F7}|Assembly-CSharp.csproj|G:\\Semester7\\PRU\\GameDev\\PRU212-UnityGame-dangto\\PRU212-UnityGame-dangto\\assets\\duccop\\scripts\\traps\\arrowtrapduc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F4AC4A94-E958-6745-5C23-4A6B1A3CC4F7}|Assembly-CSharp.csproj|solutionrelative:assets\\duccop\\scripts\\traps\\arrowtrapduc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F4AC4A94-E958-6745-5C23-4A6B1A3CC4F7}|Assembly-CSharp.csproj|g:\\semester7\\pru\\gamedev\\pru212-unitygame-dangto\\pru212-unitygame-dangto\\assets\\duccop\\scripts\\traps\\enemy_sidewaysduc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F4AC4A94-E958-6745-5C23-4A6B1A3CC4F7}|Assembly-CSharp.csproj|solutionrelative:assets\\duccop\\scripts\\traps\\enemy_sidewaysduc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F4AC4A94-E958-6745-5C23-4A6B1A3CC4F7}|Assembly-CSharp.csproj|g:\\semester7\\pru\\gamedev\\pru212-unitygame-dangto\\pru212-unitygame-dangto\\assets\\duccop\\scripts\\traps\\enemydamageduc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{F4AC4A94-E958-6745-5C23-4A6B1A3CC4F7}|Assembly-CSharp.csproj|G:\\Semester7\\PRU\\GameDev\\PRU212-UnityGame-dangto\\PRU212-UnityGame-dangto\\assets\\duccop\\scripts\\traps\\enemydamageduc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F4AC4A94-E958-6745-5C23-4A6B1A3CC4F7}|Assembly-CSharp.csproj|solutionrelative:assets\\duccop\\scripts\\traps\\enemydamageduc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F4AC4A94-E958-6745-5C23-4A6B1A3CC4F7}|Assembly-CSharp.csproj|g:\\semester7\\pru\\gamedev\\pru212-unitygame-dangto\\pru212-unitygame-dangto\\assets\\duccop\\scripts\\traps\\enemyprojectileduc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F4AC4A94-E958-6745-5C23-4A6B1A3CC4F7}|Assembly-CSharp.csproj|solutionrelative:assets\\duccop\\scripts\\traps\\enemyprojectileduc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F4AC4A94-E958-6745-5C23-4A6B1A3CC4F7}|Assembly-CSharp.csproj|G:\\Semester7\\PRU\\GameDev\\PRU212-UnityGame-dangto\\PRU212-UnityGame-dangto\\assets\\duccop\\scripts\\health\\healthbarduc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F4AC4A94-E958-6745-5C23-4A6B1A3CC4F7}|Assembly-CSharp.csproj|solutionrelative:assets\\duccop\\scripts\\health\\healthbarduc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F4AC4A94-E958-6745-5C23-4A6B1A3CC4F7}|Assembly-CSharp.csproj|g:\\semester7\\pru\\gamedev\\pru212-unitygame-dangto\\pru212-unitygame-dangto\\assets\\duccop\\scripts\\traps\\firetrapduc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F4AC4A94-E958-6745-5C23-4A6B1A3CC4F7}|Assembly-CSharp.csproj|solutionrelative:assets\\duccop\\scripts\\traps\\firetrapduc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F4AC4A94-E958-6745-5C23-4A6B1A3CC4F7}|Assembly-CSharp.csproj|G:\\Semester7\\PRU\\GameDev\\PRU212-UnityGame-dangto\\PRU212-UnityGame-dangto\\assets\\script\\player\\playermovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F4AC4A94-E958-6745-5C23-4A6B1A3CC4F7}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\player\\playermovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F4AC4A94-E958-6745-5C23-4A6B1A3CC4F7}|Assembly-CSharp.csproj|g:\\semester7\\pru\\gamedev\\pru212-unitygame-dangto\\pru212-unitygame-dangto\\assets\\duccop\\scripts\\traps\\spikeheadduc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{F4AC4A94-E958-6745-5C23-4A6B1A3CC4F7}|Assembly-CSharp.csproj|G:\\Semester7\\PRU\\GameDev\\PRU212-UnityGame-dangto\\PRU212-UnityGame-dangto\\assets\\duccop\\scripts\\player\\playermovementduc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F4AC4A94-E958-6745-5C23-4A6B1A3CC4F7}|Assembly-CSharp.csproj|solutionrelative:assets\\duccop\\scripts\\player\\playermovementduc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F4AC4A94-E958-6745-5C23-4A6B1A3CC4F7}|Assembly-CSharp.csproj|G:\\Semester7\\PRU\\GameDev\\PRU212-UnityGame-dangto\\PRU212-UnityGame-dangto\\assets\\duccop\\scripts\\traps\\spikeheadduc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F4AC4A94-E958-6745-5C23-4A6B1A3CC4F7}|Assembly-CSharp.csproj|solutionrelative:assets\\duccop\\scripts\\traps\\spikeheadduc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F4AC4A94-E958-6745-5C23-4A6B1A3CC4F7}|Assembly-CSharp.csproj|g:\\semester7\\pru\\gamedev\\pru212-unitygame-dangto\\pru212-unitygame-dangto\\assets\\script\\trap\\enemydamage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F4AC4A94-E958-6745-5C23-4A6B1A3CC4F7}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\trap\\enemydamage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F4AC4A94-E958-6745-5C23-4A6B1A3CC4F7}|Assembly-CSharp.csproj|G:\\Semester7\\PRU\\GameDev\\PRU212-UnityGame-dangto\\PRU212-UnityGame-dangto\\assets\\duccop\\scripts\\health\\healthduc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F4AC4A94-E958-6745-5C23-4A6B1A3CC4F7}|Assembly-CSharp.csproj|solutionrelative:assets\\duccop\\scripts\\health\\healthduc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -99,106 +99,52 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "UnityPurchasingEditor.cs",
-              "DocumentMoniker": "G:\\Semester7\\PRU\\GameDev\\PRU212-UnityGame-dangto\\PRU212-UnityGame-dangto\\Library\\PackageCache\\com.unity.purchasing\\Editor\\UnityPurchasingEditor.cs",
-              "RelativeDocumentMoniker": "Library\\PackageCache\\com.unity.purchasing\\Editor\\UnityPurchasingEditor.cs",
-              "ToolTip": "G:\\Semester7\\PRU\\GameDev\\PRU212-UnityGame-dangto\\PRU212-UnityGame-dangto\\Library\\PackageCache\\com.unity.purchasing\\Editor\\UnityPurchasingEditor.cs",
-              "RelativeToolTip": "Library\\PackageCache\\com.unity.purchasing\\Editor\\UnityPurchasingEditor.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAGkAAABVAAAA",
+              "Title": "MovingPlatformD.cs",
+              "DocumentMoniker": "G:\\Semester7\\PRU\\GameDev\\PRU212-UnityGame-dangto\\PRU212-UnityGame-dangto\\Assets\\DucCop\\Scripts\\MovingPlatformD.cs",
+              "RelativeDocumentMoniker": "Assets\\DucCop\\Scripts\\MovingPlatformD.cs",
+              "ToolTip": "G:\\Semester7\\PRU\\GameDev\\PRU212-UnityGame-dangto\\PRU212-UnityGame-dangto\\Assets\\DucCop\\Scripts\\MovingPlatformD.cs",
+              "RelativeToolTip": "Assets\\DucCop\\Scripts\\MovingPlatformD.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAnAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-10T06:04:01.818Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "PlayerAttackDuc.cs",
-              "DocumentMoniker": "G:\\Semester7\\PRU\\GameDev\\PRU212-UnityGame-dangto\\PRU212-UnityGame-dangto\\Assets\\DucCop\\Scripts\\Player\\PlayerAttackDuc.cs",
-              "RelativeDocumentMoniker": "Assets\\DucCop\\Scripts\\Player\\PlayerAttackDuc.cs",
-              "ToolTip": "G:\\Semester7\\PRU\\GameDev\\PRU212-UnityGame-dangto\\PRU212-UnityGame-dangto\\Assets\\DucCop\\Scripts\\Player\\PlayerAttackDuc.cs",
-              "RelativeToolTip": "Assets\\DucCop\\Scripts\\Player\\PlayerAttackDuc.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-09T20:19:35.394Z",
+              "WhenOpened": "2025-03-24T21:10:11.822Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "PlayerMovementDuc.cs",
-              "DocumentMoniker": "G:\\Semester7\\PRU\\GameDev\\PRU212-UnityGame-dangto\\PRU212-UnityGame-dangto\\Assets\\DucCop\\Scripts\\Player\\PlayerMovementDuc.cs",
-              "RelativeDocumentMoniker": "Assets\\DucCop\\Scripts\\Player\\PlayerMovementDuc.cs",
-              "ToolTip": "G:\\Semester7\\PRU\\GameDev\\PRU212-UnityGame-dangto\\PRU212-UnityGame-dangto\\Assets\\DucCop\\Scripts\\Player\\PlayerMovementDuc.cs",
-              "RelativeToolTip": "Assets\\DucCop\\Scripts\\Player\\PlayerMovementDuc.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Title": "SoundManagerDuc.cs",
+              "DocumentMoniker": "G:\\Semester7\\PRU\\GameDev\\PRU212-UnityGame-dangto\\PRU212-UnityGame-dangto\\Assets\\DucCop\\Scripts\\Core\\SoundManagerDuc.cs",
+              "RelativeDocumentMoniker": "Assets\\DucCop\\Scripts\\Core\\SoundManagerDuc.cs",
+              "ToolTip": "G:\\Semester7\\PRU\\GameDev\\PRU212-UnityGame-dangto\\PRU212-UnityGame-dangto\\Assets\\DucCop\\Scripts\\Core\\SoundManagerDuc.cs",
+              "RelativeToolTip": "Assets\\DucCop\\Scripts\\Core\\SoundManagerDuc.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAqAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-09T20:19:34.233Z",
+              "WhenOpened": "2025-03-24T19:25:38.564Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MovingPlatform.cs",
+              "DocumentMoniker": "G:\\Semester7\\PRU\\GameDev\\PRU212-UnityGame-dangto\\PRU212-UnityGame-dangto\\Assets\\Script\\MovingPlatform.cs",
+              "RelativeDocumentMoniker": "Assets\\Script\\MovingPlatform.cs",
+              "ToolTip": "G:\\Semester7\\PRU\\GameDev\\PRU212-UnityGame-dangto\\PRU212-UnityGame-dangto\\Assets\\Script\\MovingPlatform.cs",
+              "RelativeToolTip": "Assets\\Script\\MovingPlatform.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-24T19:13:18.977Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "PlayerRespawnDuc.cs",
-              "DocumentMoniker": "G:\\Semester7\\PRU\\GameDev\\PRU212-UnityGame-dangto\\PRU212-UnityGame-dangto\\Assets\\DucCop\\Scripts\\Player\\PlayerRespawnDuc.cs",
-              "RelativeDocumentMoniker": "Assets\\DucCop\\Scripts\\Player\\PlayerRespawnDuc.cs",
-              "ToolTip": "G:\\Semester7\\PRU\\GameDev\\PRU212-UnityGame-dangto\\PRU212-UnityGame-dangto\\Assets\\DucCop\\Scripts\\Player\\PlayerRespawnDuc.cs",
-              "RelativeToolTip": "Assets\\DucCop\\Scripts\\Player\\PlayerRespawnDuc.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Title": "CameraControllerDuc.cs",
+              "DocumentMoniker": "G:\\Semester7\\PRU\\GameDev\\PRU212-UnityGame-dangto\\PRU212-UnityGame-dangto\\Assets\\DucCop\\Scripts\\Core\\CameraControllerDuc.cs",
+              "RelativeDocumentMoniker": "Assets\\DucCop\\Scripts\\Core\\CameraControllerDuc.cs",
+              "ToolTip": "G:\\Semester7\\PRU\\GameDev\\PRU212-UnityGame-dangto\\PRU212-UnityGame-dangto\\Assets\\DucCop\\Scripts\\Core\\CameraControllerDuc.cs",
+              "RelativeToolTip": "Assets\\DucCop\\Scripts\\Core\\CameraControllerDuc.cs",
+              "ViewState": "AQIAACYAAAAAAAAAAAAAwDgAAABtAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-09T20:19:31.388Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "ArrowTrapDuc.cs",
-              "DocumentMoniker": "G:\\Semester7\\PRU\\GameDev\\PRU212-UnityGame-dangto\\PRU212-UnityGame-dangto\\Assets\\DucCop\\Scripts\\Traps\\ArrowTrapDuc.cs",
-              "RelativeDocumentMoniker": "Assets\\DucCop\\Scripts\\Traps\\ArrowTrapDuc.cs",
-              "ToolTip": "G:\\Semester7\\PRU\\GameDev\\PRU212-UnityGame-dangto\\PRU212-UnityGame-dangto\\Assets\\DucCop\\Scripts\\Traps\\ArrowTrapDuc.cs",
-              "RelativeToolTip": "Assets\\DucCop\\Scripts\\Traps\\ArrowTrapDuc.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-09T20:19:29.207Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Enemy_SidewaysDuc.cs",
-              "DocumentMoniker": "G:\\Semester7\\PRU\\GameDev\\PRU212-UnityGame-dangto\\PRU212-UnityGame-dangto\\Assets\\DucCop\\Scripts\\Traps\\Enemy_SidewaysDuc.cs",
-              "RelativeDocumentMoniker": "Assets\\DucCop\\Scripts\\Traps\\Enemy_SidewaysDuc.cs",
-              "ToolTip": "G:\\Semester7\\PRU\\GameDev\\PRU212-UnityGame-dangto\\PRU212-UnityGame-dangto\\Assets\\DucCop\\Scripts\\Traps\\Enemy_SidewaysDuc.cs",
-              "RelativeToolTip": "Assets\\DucCop\\Scripts\\Traps\\Enemy_SidewaysDuc.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-09T20:19:27.733Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "FiretrapDuc.cs",
-              "DocumentMoniker": "G:\\Semester7\\PRU\\GameDev\\PRU212-UnityGame-dangto\\PRU212-UnityGame-dangto\\Assets\\DucCop\\Scripts\\Traps\\FiretrapDuc.cs",
-              "RelativeDocumentMoniker": "Assets\\DucCop\\Scripts\\Traps\\FiretrapDuc.cs",
-              "ToolTip": "G:\\Semester7\\PRU\\GameDev\\PRU212-UnityGame-dangto\\PRU212-UnityGame-dangto\\Assets\\DucCop\\Scripts\\Traps\\FiretrapDuc.cs",
-              "RelativeToolTip": "Assets\\DucCop\\Scripts\\Traps\\FiretrapDuc.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-09T20:19:21.022Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "EnemyDamageDuc.cs",
-              "DocumentMoniker": "G:\\Semester7\\PRU\\GameDev\\PRU212-UnityGame-dangto\\PRU212-UnityGame-dangto\\Assets\\DucCop\\Scripts\\Traps\\EnemyDamageDuc.cs",
-              "RelativeDocumentMoniker": "Assets\\DucCop\\Scripts\\Traps\\EnemyDamageDuc.cs",
-              "ToolTip": "G:\\Semester7\\PRU\\GameDev\\PRU212-UnityGame-dangto\\PRU212-UnityGame-dangto\\Assets\\DucCop\\Scripts\\Traps\\EnemyDamageDuc.cs",
-              "RelativeToolTip": "Assets\\DucCop\\Scripts\\Traps\\EnemyDamageDuc.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAbAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-09T20:19:13.027Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-24T18:47:13.239Z"
             },
             {
               "$type": "Document",
@@ -208,36 +154,81 @@
               "RelativeDocumentMoniker": "Assets\\DucCop\\Scripts\\Traps\\SpikeheadDuc.cs",
               "ToolTip": "G:\\Semester7\\PRU\\GameDev\\PRU212-UnityGame-dangto\\PRU212-UnityGame-dangto\\Assets\\DucCop\\Scripts\\Traps\\SpikeheadDuc.cs",
               "RelativeToolTip": "Assets\\DucCop\\Scripts\\Traps\\SpikeheadDuc.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAzAAAA",
+              "ViewState": "AQIAACkAAAAAAAAAAAAgwDoAAAApAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-09T20:19:03.388Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-22T20:12:31.588Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "PlayerMovementDuc.cs",
+              "DocumentMoniker": "G:\\Semester7\\PRU\\GameDev\\PRU212-UnityGame-dangto\\PRU212-UnityGame-dangto\\Assets\\DucCop\\Scripts\\Player\\PlayerMovementDuc.cs",
+              "RelativeDocumentMoniker": "Assets\\DucCop\\Scripts\\Player\\PlayerMovementDuc.cs",
+              "ToolTip": "G:\\Semester7\\PRU\\GameDev\\PRU212-UnityGame-dangto\\PRU212-UnityGame-dangto\\Assets\\DucCop\\Scripts\\Player\\PlayerMovementDuc.cs",
+              "RelativeToolTip": "Assets\\DucCop\\Scripts\\Player\\PlayerMovementDuc.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAAwB8AAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-22T20:12:10.708Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 7,
-              "Title": "EnemyProjectileDuc.cs",
-              "DocumentMoniker": "G:\\Semester7\\PRU\\GameDev\\PRU212-UnityGame-dangto\\PRU212-UnityGame-dangto\\Assets\\DucCop\\Scripts\\Traps\\EnemyProjectileDuc.cs",
-              "RelativeDocumentMoniker": "Assets\\DucCop\\Scripts\\Traps\\EnemyProjectileDuc.cs",
-              "ToolTip": "G:\\Semester7\\PRU\\GameDev\\PRU212-UnityGame-dangto\\PRU212-UnityGame-dangto\\Assets\\DucCop\\Scripts\\Traps\\EnemyProjectileDuc.cs",
-              "RelativeToolTip": "Assets\\DucCop\\Scripts\\Traps\\EnemyProjectileDuc.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAwAAAA",
+              "Title": "PlayerMovement.cs",
+              "DocumentMoniker": "G:\\Semester7\\PRU\\GameDev\\PRU212-UnityGame-dangto\\PRU212-UnityGame-dangto\\Assets\\Script\\Player\\PlayerMovement.cs",
+              "RelativeDocumentMoniker": "Assets\\Script\\Player\\PlayerMovement.cs",
+              "ToolTip": "G:\\Semester7\\PRU\\GameDev\\PRU212-UnityGame-dangto\\PRU212-UnityGame-dangto\\Assets\\Script\\Player\\PlayerMovement.cs",
+              "RelativeToolTip": "Assets\\Script\\Player\\PlayerMovement.cs",
+              "ViewState": "AQIAAEgAAAAAAAAAAAAowAcAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-09T20:18:52.439Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-22T20:11:34.782Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "HealthbarDuc.cs",
+              "DocumentMoniker": "G:\\Semester7\\PRU\\GameDev\\PRU212-UnityGame-dangto\\PRU212-UnityGame-dangto\\Assets\\DucCop\\Scripts\\Health\\HealthbarDuc.cs",
+              "RelativeDocumentMoniker": "Assets\\DucCop\\Scripts\\Health\\HealthbarDuc.cs",
+              "ToolTip": "G:\\Semester7\\PRU\\GameDev\\PRU212-UnityGame-dangto\\PRU212-UnityGame-dangto\\Assets\\DucCop\\Scripts\\Health\\HealthbarDuc.cs",
+              "RelativeToolTip": "Assets\\DucCop\\Scripts\\Health\\HealthbarDuc.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAAwCcAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-22T20:02:08.535Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 10,
-              "Title": "EnemyDamage.cs",
-              "DocumentMoniker": "G:\\Semester7\\PRU\\GameDev\\PRU212-UnityGame-dangto\\PRU212-UnityGame-dangto\\Assets\\Script\\Trap\\EnemyDamage.cs",
-              "RelativeDocumentMoniker": "Assets\\Script\\Trap\\EnemyDamage.cs",
-              "ToolTip": "G:\\Semester7\\PRU\\GameDev\\PRU212-UnityGame-dangto\\PRU212-UnityGame-dangto\\Assets\\Script\\Trap\\EnemyDamage.cs",
-              "RelativeToolTip": "Assets\\Script\\Trap\\EnemyDamage.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAoAAAA",
+              "Title": "HealthDuc.cs",
+              "DocumentMoniker": "G:\\Semester7\\PRU\\GameDev\\PRU212-UnityGame-dangto\\PRU212-UnityGame-dangto\\Assets\\DucCop\\Scripts\\Health\\HealthDuc.cs",
+              "RelativeDocumentMoniker": "Assets\\DucCop\\Scripts\\Health\\HealthDuc.cs",
+              "ToolTip": "G:\\Semester7\\PRU\\GameDev\\PRU212-UnityGame-dangto\\PRU212-UnityGame-dangto\\Assets\\DucCop\\Scripts\\Health\\HealthDuc.cs",
+              "RelativeToolTip": "Assets\\DucCop\\Scripts\\Health\\HealthDuc.cs",
+              "ViewState": "AQIAACQAAAAAAAAAAAA1wEUAAAAvAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-09T20:17:39.706Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-22T15:33:37.206Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "EnemyDamageDuc.cs",
+              "DocumentMoniker": "G:\\Semester7\\PRU\\GameDev\\PRU212-UnityGame-dangto\\PRU212-UnityGame-dangto\\Assets\\DucCop\\Scripts\\Traps\\EnemyDamageDuc.cs",
+              "RelativeDocumentMoniker": "Assets\\DucCop\\Scripts\\Traps\\EnemyDamageDuc.cs",
+              "ToolTip": "G:\\Semester7\\PRU\\GameDev\\PRU212-UnityGame-dangto\\PRU212-UnityGame-dangto\\Assets\\DucCop\\Scripts\\Traps\\EnemyDamageDuc.cs",
+              "RelativeToolTip": "Assets\\DucCop\\Scripts\\Traps\\EnemyDamageDuc.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-11T10:16:11.029Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ArrowTrapDuc.cs",
+              "DocumentMoniker": "G:\\Semester7\\PRU\\GameDev\\PRU212-UnityGame-dangto\\PRU212-UnityGame-dangto\\Assets\\DucCop\\Scripts\\Traps\\ArrowTrapDuc.cs",
+              "RelativeDocumentMoniker": "Assets\\DucCop\\Scripts\\Traps\\ArrowTrapDuc.cs",
+              "ToolTip": "G:\\Semester7\\PRU\\GameDev\\PRU212-UnityGame-dangto\\PRU212-UnityGame-dangto\\Assets\\DucCop\\Scripts\\Traps\\ArrowTrapDuc.cs",
+              "RelativeToolTip": "Assets\\DucCop\\Scripts\\Traps\\ArrowTrapDuc.cs",
+              "ViewState": "AQIAAAIAAAAAAAAAAAAxwBIAAAA7AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-11T10:12:33.787Z"
             }
           ]
         }

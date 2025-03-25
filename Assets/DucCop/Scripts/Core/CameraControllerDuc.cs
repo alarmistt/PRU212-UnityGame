@@ -31,6 +31,7 @@ public class CameraControllerDuc : MonoBehaviour
     //        transform.position = Vector3.Lerp(transform.position, boundPos,
     //smoothFactor);
     //    }
+
     [SerializeField] private float speed;
     private float currentPosX;
     private Vector3 velocity = Vector3.zero;
@@ -45,10 +46,15 @@ public class CameraControllerDuc : MonoBehaviour
     private void Update()
     {
         //transform.position = Vector3.SmoothDamp(transform.position, new Vector3(currentPosX, transform.position.y, transform.position.z), ref velocity, speed);
-        
+        float followSpeed = cameraSpeed * 5f;
         // follow player
-        transform.position = new Vector3(player.position.x + lookAhead, transform.position.y, transform.position.z);
-        lookAhead = Mathf.Lerp(lookAhead, (aheadDistance * player.localScale.x), Time.deltaTime * cameraSpeed);
+        transform.position = new Vector3(
+            Mathf.Lerp(transform.position.x, player.position.x + lookAhead, Time.deltaTime * followSpeed),
+            Mathf.Lerp(transform.position.y, player.position.y, Time.deltaTime * followSpeed),
+            transform.position.z
+        );
+
+        lookAhead = Mathf.Lerp(lookAhead, aheadDistance * player.localScale.x, Time.deltaTime * followSpeed);
     }
 
     public void MoveToNewRoom(Transform _newRoom)

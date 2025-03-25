@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 2387360833474354015}
   - component: {fileID: 2466926380791426068}
   - component: {fileID: 4283076578585743078}
-  m_Layer: 11
+  m_Layer: 7
   m_Name: Arrow
   m_TagString: Enemy
   m_Icon: {fileID: 0}
@@ -76,7 +76,7 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: -1621421021
+  m_SortingLayerID: 564221263
   m_SortingLayer: 2
   m_SortingOrder: 0
   m_Sprite: {fileID: -800713239, guid: 544ec7b3531a153418d95f275440e782, type: 3}
