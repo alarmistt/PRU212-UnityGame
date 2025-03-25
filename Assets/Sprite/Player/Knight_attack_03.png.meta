@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Knight_attack_03_0: 5626598331892529510
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Knight_dizzy_01_0: 1631706978830909961
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
