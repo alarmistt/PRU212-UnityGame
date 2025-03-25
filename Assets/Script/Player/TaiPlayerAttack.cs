@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class PlayerAttack : MonoBehaviour
+public class TaiPlayerAttack : MonoBehaviour
 {
     [SerializeField] private float attackCooldown;
     [SerializeField] private float shootCooldown = 3.0f;
@@ -17,13 +17,13 @@ public class PlayerAttack : MonoBehaviour
     public LayerMask enemyLayers;
 
     private Animator anim;
-    private PlayerMovement playerMovement;
+    private TaiPlayerMovement playerMovement;
     private float cooldownTimer = Mathf.Infinity;
 
     private void Awake()
     {
         anim = GetComponent<Animator>();
-        playerMovement = GetComponent<PlayerMovement>();
+        playerMovement = GetComponent<TaiPlayerMovement>();
         audioSource = GetComponent<AudioSource>(); // L?y AudioSource t? ??i t??ng
     }
 
@@ -51,11 +51,11 @@ public class PlayerAttack : MonoBehaviour
         {
             if (enemy.CompareTag("Enemy"))
             {
-                enemy.GetComponent<EnemyHealth>().TakeDamage(attackDamage);
+                enemy.GetComponent<TaiEnemyHealth>().TakeDamage(attackDamage);
             }
             else if (enemy.CompareTag("Boss"))
             {
-                enemy.GetComponent<BossHealth>().TakeDamage(attackDamage);
+                enemy.GetComponent<TaiBossHealth>().TakeDamage(attackDamage);
             }
         }
     }
@@ -69,7 +69,7 @@ public class PlayerAttack : MonoBehaviour
         PlaySound(shootSound);
 
         fireballs[FindFireball()].transform.position = firePoint.position;
-        fireballs[FindFireball()].GetComponent<Projectile>().SetDirection(Mathf.Sign(transform.localScale.x));
+        fireballs[FindFireball()].GetComponent<TaiProjectile>().SetDirection(Mathf.Sign(transform.localScale.x));
     }
 
     private int FindFireball()

@@ -1,0 +1,461 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\1.Game-Unity\\PRU212-UnityGame-huytai - BackUp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A1DA48A9-9F28-7CE8-8523-D14A8B277BB2}|Assembly-CSharp.csproj|e:\\1.game-unity\\pru212-unitygame-huytai - backup\\assets\\script\\taiparallax.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1DA48A9-9F28-7CE8-8523-D14A8B277BB2}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\taiparallax.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1DA48A9-9F28-7CE8-8523-D14A8B277BB2}|Assembly-CSharp.csproj|E:\\1.Game-Unity\\PRU212-UnityGame-huytai - BackUp\\assets\\script\\taimovingplatform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1DA48A9-9F28-7CE8-8523-D14A8B277BB2}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\taimovingplatform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1DA48A9-9F28-7CE8-8523-D14A8B277BB2}|Assembly-CSharp.csproj|E:\\1.Game-Unity\\PRU212-UnityGame-huytai - BackUp\\assets\\script\\taigatetrigger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1DA48A9-9F28-7CE8-8523-D14A8B277BB2}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\taigatetrigger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1DA48A9-9F28-7CE8-8523-D14A8B277BB2}|Assembly-CSharp.csproj|E:\\1.Game-Unity\\PRU212-UnityGame-huytai - BackUp\\assets\\script\\taideadzone.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1DA48A9-9F28-7CE8-8523-D14A8B277BB2}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\taideadzone.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1DA48A9-9F28-7CE8-8523-D14A8B277BB2}|Assembly-CSharp.csproj|E:\\1.Game-Unity\\PRU212-UnityGame-huytai - BackUp\\assets\\script\\taicameracontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1DA48A9-9F28-7CE8-8523-D14A8B277BB2}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\taicameracontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1DA48A9-9F28-7CE8-8523-D14A8B277BB2}|Assembly-CSharp.csproj|E:\\1.Game-Unity\\PRU212-UnityGame-huytai - BackUp\\assets\\script\\trap\\taienemydamage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1DA48A9-9F28-7CE8-8523-D14A8B277BB2}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\trap\\taienemydamage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1DA48A9-9F28-7CE8-8523-D14A8B277BB2}|Assembly-CSharp.csproj|E:\\1.Game-Unity\\PRU212-UnityGame-huytai - BackUp\\assets\\script\\player\\taiprojectile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1DA48A9-9F28-7CE8-8523-D14A8B277BB2}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\player\\taiprojectile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1DA48A9-9F28-7CE8-8523-D14A8B277BB2}|Assembly-CSharp.csproj|E:\\1.Game-Unity\\PRU212-UnityGame-huytai - BackUp\\assets\\script\\player\\taiplayerrespawn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1DA48A9-9F28-7CE8-8523-D14A8B277BB2}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\player\\taiplayerrespawn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1DA48A9-9F28-7CE8-8523-D14A8B277BB2}|Assembly-CSharp.csproj|E:\\1.Game-Unity\\PRU212-UnityGame-huytai - BackUp\\assets\\script\\player\\taiplayermovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1DA48A9-9F28-7CE8-8523-D14A8B277BB2}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\player\\taiplayermovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1DA48A9-9F28-7CE8-8523-D14A8B277BB2}|Assembly-CSharp.csproj|E:\\1.Game-Unity\\PRU212-UnityGame-huytai - BackUp\\assets\\script\\player\\taiplayerattack.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1DA48A9-9F28-7CE8-8523-D14A8B277BB2}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\player\\taiplayerattack.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1DA48A9-9F28-7CE8-8523-D14A8B277BB2}|Assembly-CSharp.csproj|E:\\1.Game-Unity\\PRU212-UnityGame-huytai - BackUp\\assets\\script\\healthitem\\taimanapotion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1DA48A9-9F28-7CE8-8523-D14A8B277BB2}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\healthitem\\taimanapotion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1DA48A9-9F28-7CE8-8523-D14A8B277BB2}|Assembly-CSharp.csproj|E:\\1.Game-Unity\\PRU212-UnityGame-huytai - BackUp\\assets\\script\\healthitem\\taihealthpotion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1DA48A9-9F28-7CE8-8523-D14A8B277BB2}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\healthitem\\taihealthpotion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1DA48A9-9F28-7CE8-8523-D14A8B277BB2}|Assembly-CSharp.csproj|E:\\1.Game-Unity\\PRU212-UnityGame-huytai - BackUp\\assets\\script\\health\\taihealthbar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1DA48A9-9F28-7CE8-8523-D14A8B277BB2}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\health\\taihealthbar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1DA48A9-9F28-7CE8-8523-D14A8B277BB2}|Assembly-CSharp.csproj|E:\\1.Game-Unity\\PRU212-UnityGame-huytai - BackUp\\assets\\script\\health\\taihealth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1DA48A9-9F28-7CE8-8523-D14A8B277BB2}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\health\\taihealth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1DA48A9-9F28-7CE8-8523-D14A8B277BB2}|Assembly-CSharp.csproj|E:\\1.Game-Unity\\PRU212-UnityGame-huytai - BackUp\\assets\\script\\enemy\\taishootingenemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1DA48A9-9F28-7CE8-8523-D14A8B277BB2}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\enemy\\taishootingenemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1DA48A9-9F28-7CE8-8523-D14A8B277BB2}|Assembly-CSharp.csproj|E:\\1.Game-Unity\\PRU212-UnityGame-huytai - BackUp\\assets\\script\\enemy\\taimeleeenemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1DA48A9-9F28-7CE8-8523-D14A8B277BB2}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\enemy\\taimeleeenemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1DA48A9-9F28-7CE8-8523-D14A8B277BB2}|Assembly-CSharp.csproj|E:\\1.Game-Unity\\PRU212-UnityGame-huytai - BackUp\\assets\\script\\enemy\\taienemyprojectile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1DA48A9-9F28-7CE8-8523-D14A8B277BB2}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\enemy\\taienemyprojectile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1DA48A9-9F28-7CE8-8523-D14A8B277BB2}|Assembly-CSharp.csproj|E:\\1.Game-Unity\\PRU212-UnityGame-huytai - BackUp\\assets\\script\\enemy\\taienemypatrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1DA48A9-9F28-7CE8-8523-D14A8B277BB2}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\enemy\\taienemypatrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1DA48A9-9F28-7CE8-8523-D14A8B277BB2}|Assembly-CSharp.csproj|E:\\1.Game-Unity\\PRU212-UnityGame-huytai - BackUp\\assets\\script\\enemy\\taienemyhealthbar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1DA48A9-9F28-7CE8-8523-D14A8B277BB2}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\enemy\\taienemyhealthbar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1DA48A9-9F28-7CE8-8523-D14A8B277BB2}|Assembly-CSharp.csproj|E:\\1.Game-Unity\\PRU212-UnityGame-huytai - BackUp\\assets\\script\\enemy\\taienemyhealth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1DA48A9-9F28-7CE8-8523-D14A8B277BB2}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\enemy\\taienemyhealth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1DA48A9-9F28-7CE8-8523-D14A8B277BB2}|Assembly-CSharp.csproj|E:\\1.Game-Unity\\PRU212-UnityGame-huytai - BackUp\\assets\\script\\boss\\taidestroybullet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1DA48A9-9F28-7CE8-8523-D14A8B277BB2}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\boss\\taidestroybullet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1DA48A9-9F28-7CE8-8523-D14A8B277BB2}|Assembly-CSharp.csproj|E:\\1.Game-Unity\\PRU212-UnityGame-huytai - BackUp\\assets\\script\\boss\\taibosshealthbar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1DA48A9-9F28-7CE8-8523-D14A8B277BB2}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\boss\\taibosshealthbar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1DA48A9-9F28-7CE8-8523-D14A8B277BB2}|Assembly-CSharp.csproj|E:\\1.Game-Unity\\PRU212-UnityGame-huytai - BackUp\\assets\\script\\boss\\taibosshealth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1DA48A9-9F28-7CE8-8523-D14A8B277BB2}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\boss\\taibosshealth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1DA48A9-9F28-7CE8-8523-D14A8B277BB2}|Assembly-CSharp.csproj|E:\\1.Game-Unity\\PRU212-UnityGame-huytai - BackUp\\assets\\script\\boss\\taibossdetection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1DA48A9-9F28-7CE8-8523-D14A8B277BB2}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\boss\\taibossdetection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1DA48A9-9F28-7CE8-8523-D14A8B277BB2}|Assembly-CSharp.csproj|E:\\1.Game-Unity\\PRU212-UnityGame-huytai - BackUp\\assets\\script\\boss\\taibossaimshoot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1DA48A9-9F28-7CE8-8523-D14A8B277BB2}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\boss\\taibossaimshoot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\1.Game-Unity\\PRU212-UnityGame-huytai - BackUp\\Library\\PackageCache\\com.unity.purchasing\\Editor\\UnityPurchasingEditor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Library\\PackageCache\\com.unity.purchasing\\Editor\\UnityPurchasingEditor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 10,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "TaiDeadZone.cs",
+              "DocumentMoniker": "E:\\1.Game-Unity\\PRU212-UnityGame-huytai - BackUp\\Assets\\Script\\TaiDeadZone.cs",
+              "RelativeDocumentMoniker": "Assets\\Script\\TaiDeadZone.cs",
+              "ToolTip": "E:\\1.Game-Unity\\PRU212-UnityGame-huytai - BackUp\\Assets\\Script\\TaiDeadZone.cs",
+              "RelativeToolTip": "Assets\\Script\\TaiDeadZone.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-25T14:59:43.479Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "TaiCameraController.cs",
+              "DocumentMoniker": "E:\\1.Game-Unity\\PRU212-UnityGame-huytai - BackUp\\Assets\\Script\\TaiCameraController.cs",
+              "RelativeDocumentMoniker": "Assets\\Script\\TaiCameraController.cs",
+              "ToolTip": "E:\\1.Game-Unity\\PRU212-UnityGame-huytai - BackUp\\Assets\\Script\\TaiCameraController.cs",
+              "RelativeToolTip": "Assets\\Script\\TaiCameraController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-25T14:59:24.43Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "TaiPlayerRespawn.cs",
+              "DocumentMoniker": "E:\\1.Game-Unity\\PRU212-UnityGame-huytai - BackUp\\Assets\\Script\\Player\\TaiPlayerRespawn.cs",
+              "RelativeDocumentMoniker": "Assets\\Script\\Player\\TaiPlayerRespawn.cs",
+              "ToolTip": "E:\\1.Game-Unity\\PRU212-UnityGame-huytai - BackUp\\Assets\\Script\\Player\\TaiPlayerRespawn.cs",
+              "RelativeToolTip": "Assets\\Script\\Player\\TaiPlayerRespawn.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-25T14:59:20.553Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "TaiPlayerMovement.cs",
+              "DocumentMoniker": "E:\\1.Game-Unity\\PRU212-UnityGame-huytai - BackUp\\Assets\\Script\\Player\\TaiPlayerMovement.cs",
+              "RelativeDocumentMoniker": "Assets\\Script\\Player\\TaiPlayerMovement.cs",
+              "ToolTip": "E:\\1.Game-Unity\\PRU212-UnityGame-huytai - BackUp\\Assets\\Script\\Player\\TaiPlayerMovement.cs",
+              "RelativeToolTip": "Assets\\Script\\Player\\TaiPlayerMovement.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-25T14:59:19.398Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "TaiParallax.cs",
+              "DocumentMoniker": "E:\\1.Game-Unity\\PRU212-UnityGame-huytai - BackUp\\Assets\\Script\\TaiParallax.cs",
+              "RelativeDocumentMoniker": "Assets\\Script\\TaiParallax.cs",
+              "ToolTip": "E:\\1.Game-Unity\\PRU212-UnityGame-huytai - BackUp\\Assets\\Script\\TaiParallax.cs",
+              "RelativeToolTip": "Assets\\Script\\TaiParallax.cs",
+              "ViewState": "AQIAACcAAAAAAAAAAAAYwAkAAAATAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-25T14:57:57.04Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "TaiGateTrigger.cs",
+              "DocumentMoniker": "E:\\1.Game-Unity\\PRU212-UnityGame-huytai - BackUp\\Assets\\Script\\TaiGateTrigger.cs",
+              "RelativeDocumentMoniker": "Assets\\Script\\TaiGateTrigger.cs",
+              "ToolTip": "E:\\1.Game-Unity\\PRU212-UnityGame-huytai - BackUp\\Assets\\Script\\TaiGateTrigger.cs",
+              "RelativeToolTip": "Assets\\Script\\TaiGateTrigger.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-25T14:57:13.723Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "TaiMovingPlatform.cs",
+              "DocumentMoniker": "E:\\1.Game-Unity\\PRU212-UnityGame-huytai - BackUp\\Assets\\Script\\TaiMovingPlatform.cs",
+              "RelativeDocumentMoniker": "Assets\\Script\\TaiMovingPlatform.cs",
+              "ToolTip": "E:\\1.Game-Unity\\PRU212-UnityGame-huytai - BackUp\\Assets\\Script\\TaiMovingPlatform.cs",
+              "RelativeToolTip": "Assets\\Script\\TaiMovingPlatform.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-25T14:57:24.651Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "TaiManaPotion.cs",
+              "DocumentMoniker": "E:\\1.Game-Unity\\PRU212-UnityGame-huytai - BackUp\\Assets\\Script\\HealthItem\\TaiManaPotion.cs",
+              "RelativeDocumentMoniker": "Assets\\Script\\HealthItem\\TaiManaPotion.cs",
+              "ToolTip": "E:\\1.Game-Unity\\PRU212-UnityGame-huytai - BackUp\\Assets\\Script\\HealthItem\\TaiManaPotion.cs",
+              "RelativeToolTip": "Assets\\Script\\HealthItem\\TaiManaPotion.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-25T14:59:16.003Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "TaiHealthPotion.cs",
+              "DocumentMoniker": "E:\\1.Game-Unity\\PRU212-UnityGame-huytai - BackUp\\Assets\\Script\\HealthItem\\TaiHealthPotion.cs",
+              "RelativeDocumentMoniker": "Assets\\Script\\HealthItem\\TaiHealthPotion.cs",
+              "ToolTip": "E:\\1.Game-Unity\\PRU212-UnityGame-huytai - BackUp\\Assets\\Script\\HealthItem\\TaiHealthPotion.cs",
+              "RelativeToolTip": "Assets\\Script\\HealthItem\\TaiHealthPotion.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-25T14:59:14.761Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "TaiHealthBar.cs",
+              "DocumentMoniker": "E:\\1.Game-Unity\\PRU212-UnityGame-huytai - BackUp\\Assets\\Script\\Health\\TaiHealthBar.cs",
+              "RelativeDocumentMoniker": "Assets\\Script\\Health\\TaiHealthBar.cs",
+              "ToolTip": "E:\\1.Game-Unity\\PRU212-UnityGame-huytai - BackUp\\Assets\\Script\\Health\\TaiHealthBar.cs",
+              "RelativeToolTip": "Assets\\Script\\Health\\TaiHealthBar.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-25T14:58:16.879Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "TaiProjectile.cs",
+              "DocumentMoniker": "E:\\1.Game-Unity\\PRU212-UnityGame-huytai - BackUp\\Assets\\Script\\Player\\TaiProjectile.cs",
+              "RelativeDocumentMoniker": "Assets\\Script\\Player\\TaiProjectile.cs",
+              "ToolTip": "E:\\1.Game-Unity\\PRU212-UnityGame-huytai - BackUp\\Assets\\Script\\Player\\TaiProjectile.cs",
+              "RelativeToolTip": "Assets\\Script\\Player\\TaiProjectile.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-25T14:56:44.309Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "TaiEnemyDamage.cs",
+              "DocumentMoniker": "E:\\1.Game-Unity\\PRU212-UnityGame-huytai - BackUp\\Assets\\Script\\Trap\\TaiEnemyDamage.cs",
+              "RelativeDocumentMoniker": "Assets\\Script\\Trap\\TaiEnemyDamage.cs",
+              "ToolTip": "E:\\1.Game-Unity\\PRU212-UnityGame-huytai - BackUp\\Assets\\Script\\Trap\\TaiEnemyDamage.cs",
+              "RelativeToolTip": "Assets\\Script\\Trap\\TaiEnemyDamage.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-25T14:56:58.076Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "TaiShootingEnemy.cs",
+              "DocumentMoniker": "E:\\1.Game-Unity\\PRU212-UnityGame-huytai - BackUp\\Assets\\Script\\Enemy\\TaiShootingEnemy.cs",
+              "RelativeDocumentMoniker": "Assets\\Script\\Enemy\\TaiShootingEnemy.cs",
+              "ToolTip": "E:\\1.Game-Unity\\PRU212-UnityGame-huytai - BackUp\\Assets\\Script\\Enemy\\TaiShootingEnemy.cs",
+              "RelativeToolTip": "Assets\\Script\\Enemy\\TaiShootingEnemy.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-25T14:59:03.851Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "TaiEnemyHealthBar.cs",
+              "DocumentMoniker": "E:\\1.Game-Unity\\PRU212-UnityGame-huytai - BackUp\\Assets\\Script\\Enemy\\TaiEnemyHealthBar.cs",
+              "RelativeDocumentMoniker": "Assets\\Script\\Enemy\\TaiEnemyHealthBar.cs",
+              "ToolTip": "E:\\1.Game-Unity\\PRU212-UnityGame-huytai - BackUp\\Assets\\Script\\Enemy\\TaiEnemyHealthBar.cs",
+              "RelativeToolTip": "Assets\\Script\\Enemy\\TaiEnemyHealthBar.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-25T14:58:57.266Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "TaiEnemyHealth.cs",
+              "DocumentMoniker": "E:\\1.Game-Unity\\PRU212-UnityGame-huytai - BackUp\\Assets\\Script\\Enemy\\TaiEnemyHealth.cs",
+              "RelativeDocumentMoniker": "Assets\\Script\\Enemy\\TaiEnemyHealth.cs",
+              "ToolTip": "E:\\1.Game-Unity\\PRU212-UnityGame-huytai - BackUp\\Assets\\Script\\Enemy\\TaiEnemyHealth.cs",
+              "RelativeToolTip": "Assets\\Script\\Enemy\\TaiEnemyHealth.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-25T14:58:55.653Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "TaiPlayerAttack.cs",
+              "DocumentMoniker": "E:\\1.Game-Unity\\PRU212-UnityGame-huytai - BackUp\\Assets\\Script\\Player\\TaiPlayerAttack.cs",
+              "RelativeDocumentMoniker": "Assets\\Script\\Player\\TaiPlayerAttack.cs",
+              "ToolTip": "E:\\1.Game-Unity\\PRU212-UnityGame-huytai - BackUp\\Assets\\Script\\Player\\TaiPlayerAttack.cs",
+              "RelativeToolTip": "Assets\\Script\\Player\\TaiPlayerAttack.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-25T14:56:24.692Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "TaiDestroyBullet.cs",
+              "DocumentMoniker": "E:\\1.Game-Unity\\PRU212-UnityGame-huytai - BackUp\\Assets\\Script\\Boss\\TaiDestroyBullet.cs",
+              "RelativeDocumentMoniker": "Assets\\Script\\Boss\\TaiDestroyBullet.cs",
+              "ToolTip": "E:\\1.Game-Unity\\PRU212-UnityGame-huytai - BackUp\\Assets\\Script\\Boss\\TaiDestroyBullet.cs",
+              "RelativeToolTip": "Assets\\Script\\Boss\\TaiDestroyBullet.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-25T14:58:41.675Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "TaiEnemyPatrol.cs",
+              "DocumentMoniker": "E:\\1.Game-Unity\\PRU212-UnityGame-huytai - BackUp\\Assets\\Script\\Enemy\\TaiEnemyPatrol.cs",
+              "RelativeDocumentMoniker": "Assets\\Script\\Enemy\\TaiEnemyPatrol.cs",
+              "ToolTip": "E:\\1.Game-Unity\\PRU212-UnityGame-huytai - BackUp\\Assets\\Script\\Enemy\\TaiEnemyPatrol.cs",
+              "RelativeToolTip": "Assets\\Script\\Enemy\\TaiEnemyPatrol.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-25T14:55:26.647Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "TaiEnemyProjectile.cs",
+              "DocumentMoniker": "E:\\1.Game-Unity\\PRU212-UnityGame-huytai - BackUp\\Assets\\Script\\Enemy\\TaiEnemyProjectile.cs",
+              "RelativeDocumentMoniker": "Assets\\Script\\Enemy\\TaiEnemyProjectile.cs",
+              "ToolTip": "E:\\1.Game-Unity\\PRU212-UnityGame-huytai - BackUp\\Assets\\Script\\Enemy\\TaiEnemyProjectile.cs",
+              "RelativeToolTip": "Assets\\Script\\Enemy\\TaiEnemyProjectile.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-25T14:55:41.206Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "TaiHealth.cs",
+              "DocumentMoniker": "E:\\1.Game-Unity\\PRU212-UnityGame-huytai - BackUp\\Assets\\Script\\Health\\TaiHealth.cs",
+              "RelativeDocumentMoniker": "Assets\\Script\\Health\\TaiHealth.cs",
+              "ToolTip": "E:\\1.Game-Unity\\PRU212-UnityGame-huytai - BackUp\\Assets\\Script\\Health\\TaiHealth.cs",
+              "RelativeToolTip": "Assets\\Script\\Health\\TaiHealth.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-25T14:58:09.107Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "TaiMeleeEnemy.cs",
+              "DocumentMoniker": "E:\\1.Game-Unity\\PRU212-UnityGame-huytai - BackUp\\Assets\\Script\\Enemy\\TaiMeleeEnemy.cs",
+              "RelativeDocumentMoniker": "Assets\\Script\\Enemy\\TaiMeleeEnemy.cs",
+              "ToolTip": "E:\\1.Game-Unity\\PRU212-UnityGame-huytai - BackUp\\Assets\\Script\\Enemy\\TaiMeleeEnemy.cs",
+              "RelativeToolTip": "Assets\\Script\\Enemy\\TaiMeleeEnemy.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-25T14:55:48.297Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "TaiBossHealthBar.cs",
+              "DocumentMoniker": "E:\\1.Game-Unity\\PRU212-UnityGame-huytai - BackUp\\Assets\\Script\\Boss\\TaiBossHealthBar.cs",
+              "RelativeDocumentMoniker": "Assets\\Script\\Boss\\TaiBossHealthBar.cs",
+              "ToolTip": "E:\\1.Game-Unity\\PRU212-UnityGame-huytai - BackUp\\Assets\\Script\\Boss\\TaiBossHealthBar.cs",
+              "RelativeToolTip": "Assets\\Script\\Boss\\TaiBossHealthBar.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-25T14:58:40.593Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "TaiBossHealth.cs",
+              "DocumentMoniker": "E:\\1.Game-Unity\\PRU212-UnityGame-huytai - BackUp\\Assets\\Script\\Boss\\TaiBossHealth.cs",
+              "RelativeDocumentMoniker": "Assets\\Script\\Boss\\TaiBossHealth.cs",
+              "ToolTip": "E:\\1.Game-Unity\\PRU212-UnityGame-huytai - BackUp\\Assets\\Script\\Boss\\TaiBossHealth.cs",
+              "RelativeToolTip": "Assets\\Script\\Boss\\TaiBossHealth.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-25T14:58:37.825Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "TaiBossDetection.cs",
+              "DocumentMoniker": "E:\\1.Game-Unity\\PRU212-UnityGame-huytai - BackUp\\Assets\\Script\\Boss\\TaiBossDetection.cs",
+              "RelativeDocumentMoniker": "Assets\\Script\\Boss\\TaiBossDetection.cs",
+              "ToolTip": "E:\\1.Game-Unity\\PRU212-UnityGame-huytai - BackUp\\Assets\\Script\\Boss\\TaiBossDetection.cs",
+              "RelativeToolTip": "Assets\\Script\\Boss\\TaiBossDetection.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-25T14:54:39.196Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "TaiBossAimShoot.cs",
+              "DocumentMoniker": "E:\\1.Game-Unity\\PRU212-UnityGame-huytai - BackUp\\Assets\\Script\\Boss\\TaiBossAimShoot.cs",
+              "RelativeDocumentMoniker": "Assets\\Script\\Boss\\TaiBossAimShoot.cs",
+              "ToolTip": "E:\\1.Game-Unity\\PRU212-UnityGame-huytai - BackUp\\Assets\\Script\\Boss\\TaiBossAimShoot.cs",
+              "RelativeToolTip": "Assets\\Script\\Boss\\TaiBossAimShoot.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-25T14:54:16.436Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "UnityPurchasingEditor.cs",
+              "DocumentMoniker": "E:\\1.Game-Unity\\PRU212-UnityGame-huytai - BackUp\\Library\\PackageCache\\com.unity.purchasing\\Editor\\UnityPurchasingEditor.cs",
+              "RelativeDocumentMoniker": "Library\\PackageCache\\com.unity.purchasing\\Editor\\UnityPurchasingEditor.cs",
+              "ToolTip": "E:\\1.Game-Unity\\PRU212-UnityGame-huytai - BackUp\\Library\\PackageCache\\com.unity.purchasing\\Editor\\UnityPurchasingEditor.cs",
+              "RelativeToolTip": "Library\\PackageCache\\com.unity.purchasing\\Editor\\UnityPurchasingEditor.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAkwGkAAABVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-25T14:52:32.356Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class MovingPlatform : MonoBehaviour
+public class TaiMovingPlatform : MonoBehaviour
 {
     public enum PlatformType { Vertical, Horizontal }
 

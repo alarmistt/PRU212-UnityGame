@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class EnemyProjectile : MonoBehaviour
+public class TaiEnemyProjectile : MonoBehaviour
 {
     [SerializeField] private float speed;
     [SerializeField] private float resetTime;
@@ -43,7 +43,7 @@ public class EnemyProjectile : MonoBehaviour
         }
         hit = true;
         if (collision.tag == "Player")
-            collision.GetComponent<Health>().TakeDamage(damage);
+            collision.GetComponent<TaiHealth>().TakeDamage(damage);
         coll.enabled = false;
 
         if (anim != null)

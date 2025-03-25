@@ -1,7 +1,7 @@
 using UnityEngine;
 using System.Collections;
 
-public class EnemyDamage : MonoBehaviour
+public class TaiEnemyDamage : MonoBehaviour
 {
     [SerializeField] protected float damage = 10f;
     [SerializeField] private float damageCooldown = 1f; 
@@ -11,11 +11,11 @@ public class EnemyDamage : MonoBehaviour
     {
         if (collision.CompareTag("Player") && canDamage)
         {
-            StartCoroutine(DamageOverTime(collision.GetComponent<Health>()));
+            StartCoroutine(DamageOverTime(collision.GetComponent<TaiHealth>()));
         }
     }
 
-    private IEnumerator DamageOverTime(Health playerHealth)
+    private IEnumerator DamageOverTime(TaiHealth playerHealth)
     {
         canDamage = false;
         while (playerHealth != null && gameObject.activeSelf)

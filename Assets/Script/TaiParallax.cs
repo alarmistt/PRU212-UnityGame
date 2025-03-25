@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class Parallax : MonoBehaviour
+public class TaiParallax : MonoBehaviour
 {
     Transform cam;
     Vector3 camStartPos;

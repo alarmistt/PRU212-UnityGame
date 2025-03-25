@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class ShootingEnemy : MonoBehaviour
+public class TaiShootingEnemy : MonoBehaviour
 {
     [Header("Attack Parameters")]
     [SerializeField] private float attackCooldown;
@@ -21,12 +21,12 @@ public class ShootingEnemy : MonoBehaviour
 
     //References
     private Animator anim;
-    private EnemyPatrol enemyPatrol;
+    private TaiEnemyPatrol enemyPatrol;
 
     private void Awake()
     {
         anim = GetComponent<Animator>();
-        enemyPatrol = GetComponentInParent<EnemyPatrol>();
+        enemyPatrol = GetComponentInParent<TaiEnemyPatrol>();
     }
 
     private void Update()
@@ -51,7 +51,7 @@ public class ShootingEnemy : MonoBehaviour
     {
         cooldownTimer = 0;
         fireballs[FindFireball()].transform.position = firepoint.position;
-        fireballs[FindFireball()].GetComponent<EnemyProjectile>().ActivateProjectile();
+        fireballs[FindFireball()].GetComponent<TaiEnemyProjectile>().ActivateProjectile();
     }
     public int FindFireball()
     {

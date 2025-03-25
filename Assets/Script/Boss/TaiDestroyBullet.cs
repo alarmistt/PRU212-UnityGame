@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class Bullet : MonoBehaviour
+public class TaiDestroyBullet : MonoBehaviour
 {
     public float damage = 10f; 
 
@@ -10,7 +10,7 @@ public class Bullet : MonoBehaviour
         {
             Animator anim = GetComponent<Animator>();
             anim.SetTrigger("explode");
-            Health player = collision.GetComponent<Health>(); 
+            TaiHealth player = collision.GetComponent<TaiHealth>(); 
             if (player != null)
             {
                 player.TakeDamage(damage); 

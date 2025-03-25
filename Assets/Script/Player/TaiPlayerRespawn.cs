@@ -1,21 +1,21 @@
 using UnityEngine;
 using System.Collections;
 
-public class PlayerRespawn : MonoBehaviour
+public class TaiPlayerRespawn : MonoBehaviour
 {
     public Transform respawnPoint;
     public Transform bossRespawnPoint;
-    public BossAimShoot bossAimShoot;
-    public GateTrigger gateTrigger;
+    public TaiBossAimShoot bossAimShoot;
+    public TaiGateTrigger gateTrigger;
     public float respawnDelay = 1.5f;
     private Animator anim;
-    private Health health;
+    private TaiHealth health;
     private Vector3 initialRespawnPosition;
 
     private void Start()
     {
         anim = GetComponent<Animator>();
-        health = GetComponent<Health>();
+        health = GetComponent<TaiHealth>();
 
         if (health == null)
         {
@@ -50,7 +50,7 @@ public class PlayerRespawn : MonoBehaviour
             anim.SetTrigger("playerDie");
             // Vô hiệu hóa di chuyển để không bị chuyển sang các trạng thái khác
             GetComponent<Rigidbody2D>().linearVelocity = Vector2.zero;
-            GetComponent<PlayerMovement>().enabled = false;
+            GetComponent<TaiPlayerMovement>().enabled = false;
         }
 
         StartCoroutine(Respawn());
@@ -97,7 +97,7 @@ public class PlayerRespawn : MonoBehaviour
             anim.ResetTrigger("playerDie");
             anim.Play("PlayerIdle");
         }
-         GetComponent<PlayerMovement>().enabled = true;
+         GetComponent<TaiPlayerMovement>().enabled = true;
 
         Debug.Log("Hồi sinh hoàn tất!");
     }

@@ -1,20 +1,20 @@
 using UnityEngine;
 
-public class BossHealth : MonoBehaviour
+public class TaiBossHealth : MonoBehaviour
 {
     [Header("Health")]
     [SerializeField] public float startingHealth;
     public float CurrentHealth { get; set; }
 
     private Animator anim;
-    private BossAimShoot bossAimShoot;
+    private TaiBossAimShoot bossAimShoot;
     private bool isDead = false;
 
     private void Awake()
     {
         CurrentHealth = startingHealth;
         anim = GetComponent<Animator>();
-        bossAimShoot = GetComponent<BossAimShoot>();
+        bossAimShoot = GetComponent<TaiBossAimShoot>();
     }
 
     public void TakeDamage(float damage)

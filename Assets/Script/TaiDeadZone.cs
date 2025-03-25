@@ -1,12 +1,12 @@
 ﻿using UnityEngine;
 
-public class DeathZone : MonoBehaviour
+public class TaiDeadZone : MonoBehaviour
 {
     private void OnTriggerEnter2D(Collider2D other)
     {
         if (other.CompareTag("Player"))
         {
-            PlayerRespawn playerDie = other.GetComponent<PlayerRespawn>();
+            TaiPlayerRespawn playerDie = other.GetComponent<TaiPlayerRespawn>();
             Animator anim  = other.GetComponent<Animator>();
             if (playerDie != null)
             {

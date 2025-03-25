@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class HealthFollow : MonoBehaviour
+public class TaiHealthFollow : MonoBehaviour
 {
     public Transform enemy;
     public Vector3 offset;

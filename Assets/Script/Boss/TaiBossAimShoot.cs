@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-public class BossAimShoot : MonoBehaviour
+public class TaiBossAimShoot : MonoBehaviour
 {
     [Header("Shooting Configuration")]
     public GameObject bulletPrefab;
@@ -25,12 +25,12 @@ public class BossAimShoot : MonoBehaviour
 
     private float nextFireTime;
     private bool isDead = false;
-    private BossHealth bossHealth;
+    private TaiBossHealth bossHealth;
 
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
-        bossHealth = GetComponent<BossHealth>();
+        bossHealth = GetComponent<TaiBossHealth>();
         fireRate = defaultFireRate;
 
         if (rb != null)
@@ -151,7 +151,7 @@ public class BossAimShoot : MonoBehaviour
         // Check and reassign components if needed
         if (bossHealth == null)
         {
-            bossHealth = GetComponent<BossHealth>();
+            bossHealth = GetComponent<TaiBossHealth>();
             if (bossHealth == null)
             {
                 Debug.LogError("BossHealth component not found!");

@@ -1,8 +1,8 @@
 using UnityEngine;
 
-public class BossDetection : MonoBehaviour
+public class TaiBossDetection : MonoBehaviour
 {
-    public BossAimShoot bossScript;
+    public TaiBossAimShoot bossScript;
     public Transform playerTransform;
     [SerializeField]public float attackRange = 10f; 
 

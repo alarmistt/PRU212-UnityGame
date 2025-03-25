@@ -1,9 +1,9 @@
 using UnityEngine;
 using UnityEngine.UI;
 
-public class BossHealthBar : MonoBehaviour
+public class TaiBossHealthBar : MonoBehaviour
 {
-    [SerializeField] private BossHealth enemyHealth;
+    [SerializeField] private TaiBossHealth enemyHealth;
     [SerializeField] private Image totalhealthBar;
     [SerializeField] private Image currenthealthBar;
 

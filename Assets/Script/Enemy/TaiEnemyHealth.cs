@@ -1,20 +1,20 @@
 using UnityEngine;
 
-public class EnemyHealth : MonoBehaviour
+public class TaiEnemyHealth : MonoBehaviour
 {
     [Header("Health")]
     [SerializeField] public float startingHealth;
     public float currentHealth { get; private set; }
     private Animator anim;
-    private MeleeEnemy meleeEnemy;
-    private ShootingEnemy rangedEnemy;
-    private BossAimShoot bossAimShoot;
+    private TaiMeleeEnemy meleeEnemy;
+    private TaiShootingEnemy rangedEnemy;
+    private TaiBossAimShoot bossAimShoot;
     private void Awake()
     {
         currentHealth = startingHealth;
         anim = GetComponent<Animator>();
-        meleeEnemy = GetComponent<MeleeEnemy>();
-        rangedEnemy = GetComponent<ShootingEnemy>();
+        meleeEnemy = GetComponent<TaiMeleeEnemy>();
+        rangedEnemy = GetComponent<TaiShootingEnemy>();
     }
     public void TakeDamage(float _damage)
     {

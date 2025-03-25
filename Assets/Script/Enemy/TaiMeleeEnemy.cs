@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class MeleeEnemy : MonoBehaviour
+public class TaiMeleeEnemy : MonoBehaviour
 {
     [Header("Attack Parameter")]
     [SerializeField] private float attackCooldown;
@@ -16,12 +16,12 @@ public class MeleeEnemy : MonoBehaviour
     private float cooldownTimer = Mathf.Infinity;
 
     private Animator anim;
-    private EnemyPatrol enemyPatrol;
+    private TaiEnemyPatrol enemyPatrol;
 
     private void Awake()
     {
         anim = GetComponent<Animator>();
-        enemyPatrol = GetComponentInParent<EnemyPatrol>();
+        enemyPatrol = GetComponentInParent<TaiEnemyPatrol>();
     }
 
     private void Update()
@@ -56,7 +56,7 @@ public class MeleeEnemy : MonoBehaviour
         RaycastHit2D hit = Physics2D.BoxCast(boxCenter, boxSize, 0, Vector2.zero, 0, playerLayer);
         if (hit.collider != null)
         {
-            Health player = hit.collider.GetComponent<Health>();
+            TaiHealth player = hit.collider.GetComponent<TaiHealth>();
             if (player != null)
             {
                 player.TakeDamage(damage);

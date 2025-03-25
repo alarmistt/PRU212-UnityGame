@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class ManaPotion : MonoBehaviour
+public class TaiManaPotion : MonoBehaviour
 {
     public float manaAmount = 50f; // L??ng mana h?i khi nh?t bình
     public AudioClip pickupSound;  // Âm thanh khi nh?t

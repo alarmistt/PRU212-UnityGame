@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class Projectile : MonoBehaviour
+public class TaiProjectile : MonoBehaviour
 {
     [SerializeField] private float speed;
     [SerializeField] private float damage = 50f;
@@ -39,11 +39,11 @@ public class Projectile : MonoBehaviour
 
         if (collision.CompareTag("Enemy"))
         {
-            collision.GetComponent<EnemyHealth>()?.TakeDamage(damage);
+            collision.GetComponent<TaiEnemyHealth>()?.TakeDamage(damage);
         }
         if (collision.CompareTag("Boss"))
         {
-            collision.GetComponent<BossHealth>()?.TakeDamage(damage);
+            collision.GetComponent<TaiBossHealth>()?.TakeDamage(damage);
         }
     }
     public void SetDirection(float _direction)

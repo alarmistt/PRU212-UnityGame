@@ -1,7 +1,7 @@
 using UnityEngine;
 using System.Collections;
 
-public class GateTrigger : MonoBehaviour
+public class TaiGateTrigger : MonoBehaviour
 {
     [Header("setting")]
     public GameObject gate;   

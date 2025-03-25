@@ -1,7 +1,7 @@
 using UnityEngine;
 using UnityEngine.Audio;
 
-public class HealthPotion : MonoBehaviour
+public class TaiHealthPotion : MonoBehaviour
 {
     public float healAmount = 50f;
     public AudioClip pickupSound;
@@ -10,7 +10,7 @@ public class HealthPotion : MonoBehaviour
     {
         if (other.CompareTag("Player"))
         {
-            Health playerStats = other.GetComponent<Health>();
+            TaiHealth playerStats = other.GetComponent<TaiHealth>();
             if (playerStats != null)
             {
                 playerStats.AddHealth(healAmount);

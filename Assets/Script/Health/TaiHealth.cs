@@ -1,7 +1,7 @@
 using UnityEngine;
 using System.Collections;
 
-public class Health : MonoBehaviour
+public class TaiHealth : MonoBehaviour
 {
     [Header("Health")]
     [SerializeField] public float startingHealth;
@@ -30,7 +30,7 @@ public class Health : MonoBehaviour
         }
         else
         {
-            GetComponent<PlayerRespawn>().Die(); 
+            GetComponent<TaiPlayerRespawn>().Die(); 
         }
     }
 
