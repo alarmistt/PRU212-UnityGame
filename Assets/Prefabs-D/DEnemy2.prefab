@@ -262,7 +262,7 @@ GameObject:
   - component: {fileID: 8239216202242979717}
   - component: {fileID: 6953701747592046362}
   - component: {fileID: 7331355851865333664}
-  m_Layer: 8
+  m_Layer: 7
   m_Name: DEnemy2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -277,7 +277,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5382759896569315473}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -8.31111, y: 2.9862013, z: -0.22016792}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -460,7 +460,7 @@ MonoBehaviour:
     m_Bits: 64
   attackLayer:
     serializedVersion: 2
-    m_Bits: 128
+    m_Bits: 256
   attackRange: 2.5
   walkSpeed: 1.5
   chaseSpeed: 3.6

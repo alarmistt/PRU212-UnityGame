@@ -5,6 +5,7 @@ public class DSounds : MonoBehaviour
 {
     public AudioSource CoinAudioSoure;
     public AudioSource SwordSoure;
+    public AudioSource HealManaSource;
     
     public void PlayCoinSound()
     {
@@ -14,5 +15,10 @@ public class DSounds : MonoBehaviour
     public void PlaySwordSound()
     {
         SwordSoure.Play();
+    }
+
+    public void HealManaheath ()
+    {
+        HealManaSource.Play();
     }
 }

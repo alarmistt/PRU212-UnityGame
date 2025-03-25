@@ -17,6 +17,8 @@ public class DSceneManageMent : MonoBehaviour
 
     public void Play()
     {
+        PlayerPrefs.SetInt("CurentCoin", 0);
+        PlayerPrefs.Save();
         SceneManager.LoadScene("Level_2");
     }
 
@@ -27,7 +29,8 @@ public class DSceneManageMent : MonoBehaviour
 
     public void Menu()
     {
-        //Debug.Log("Load Menu");
+        PlayerPrefs.SetInt("CurentCoin", 0);
+        PlayerPrefs.Save();
         SceneManager.LoadScene("Menu");
     }
 

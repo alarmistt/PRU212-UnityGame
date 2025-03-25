@@ -43,6 +43,12 @@ public class DFireball : MonoBehaviour
             {
                 enemy21.EnemyTakeDamage(damage);
             }
+
+            DBosslv2 boss = collision.GetComponent<DBosslv2>();
+            if (boss != null)
+            {
+                boss.EnemyTakeDamage(damage);
+            }
         }
 
         hit = true;

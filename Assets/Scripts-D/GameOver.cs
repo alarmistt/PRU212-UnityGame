@@ -12,6 +12,7 @@ public class DGameOver : MonoBehaviour
 
     public void Retry()
     {
+
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
     }
 

@@ -27,6 +27,8 @@ public class DPlayerMovement : MonoBehaviour
     [SerializeField]
     private GameObject victoryUI;
     [SerializeField]
+    private GameObject PauseUI;
+    [SerializeField]
     private Rigidbody2D rb;
     [SerializeField]
     private Animator animator;
@@ -48,11 +50,17 @@ public class DPlayerMovement : MonoBehaviour
     void Start()
     {
         animator = GetComponent<Animator>();
+        curentCoin = PlayerPrefs.GetInt("CurentCoin", 0);
+        UpdateCoinUI();
     }
 
     // Update is called once per frame
     void Update()
     {
+        if (Input.GetKey(KeyCode.Escape))
+        {
+            ShowPauseUI();
+        }
         if (isWon)
         {
             animator.SetFloat("Walk", 0);
@@ -136,6 +144,11 @@ public class DPlayerMovement : MonoBehaviour
             {
                 hitInfo.GetComponent<DEnemy21>().EnemyTakeDamage(dame);
             }
+
+            if (hitInfo.GetComponent<DBosslv2>() != null)
+            {
+                hitInfo.GetComponent<DBosslv2>().EnemyTakeDamage(dame);
+            }
         }
     }
 
@@ -166,6 +179,16 @@ public class DPlayerMovement : MonoBehaviour
         }
         maxHealth += heal;
     }
+
+    public void HealManaHealth(int heal)
+    {
+        if (heal <= 0)
+        {
+            return;
+        }
+        maxHealth = heal;
+        maxMana = heal;
+    }
     private void OnCollisionEnter2D(Collision2D collision)
     {
         if (collision.gameObject.tag == "Ground")
@@ -180,6 +203,8 @@ public class DPlayerMovement : MonoBehaviour
         if (collision.gameObject.tag == "Coin")
         {
             curentCoin++;
+            PlayerPrefs.SetInt("CurentCoin", curentCoin);
+            PlayerPrefs.Save();
             collision.gameObject.transform.GetChild(0).GetComponent<Animator>().SetTrigger("Collect");
             FindObjectOfType<DSounds>().PlayCoinSound();
             Destroy(collision.gameObject, 1f);
@@ -209,8 +234,7 @@ public class DPlayerMovement : MonoBehaviour
 
     public void Die()
     {
-        Debug.Log(this.transform.name + "die");
-        
+        //Debug.Log(this.transform.name + "die");
         animator.SetTrigger("Die");
 
         Invoke(nameof(ShowGameOverUI), 1.5f);
@@ -225,6 +249,12 @@ public class DPlayerMovement : MonoBehaviour
         gameOverUI.SetActive(true);
     }
 
+    private void ShowPauseUI()
+    {
+        Time.timeScale = 0;
+        PauseUI.SetActive(true);
+    }
+
     private void OnDrawGizmosSelected()
     {
         if (attackPoint == null)
@@ -233,5 +263,16 @@ public class DPlayerMovement : MonoBehaviour
         }
         Gizmos.color = Color.yellow;
         Gizmos.DrawWireSphere(attackPoint.position, attackRadius);
+    }
+
+    void UpdateCoinUI()
+    {
+        currentCoinText.text = curentCoin.ToString() + "/40";
+    }
+
+    public void SetCurrentCoin()
+    {
+        PlayerPrefs.SetInt("curentCoin", 0);
+        PlayerPrefs.Save();
     }
 }

@@ -453,7 +453,7 @@ GameObject:
   - component: {fileID: 6474952531392443078}
   - component: {fileID: 2147735720551667685}
   - component: {fileID: 3639257814996620967}
-  m_Layer: 8
+  m_Layer: 7
   m_Name: DEnemy1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -651,11 +651,11 @@ MonoBehaviour:
     m_Bits: 64
   attackLayer:
     serializedVersion: 2
-    m_Bits: 128
+    m_Bits: 256
   attackRange: 2.5
   walkSpeed: 1.5
   chaseSpeed: 3.6
   retrieveDistance: 2
   attackRadius: 2
-  maxHealth: 10
+  maxHealth: 15
   distance: 1.2

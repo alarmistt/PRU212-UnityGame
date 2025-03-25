@@ -3,12 +3,52 @@
   "WorkspaceRootPath": "C:\\Users\\DANG TO\\Documents\\WorkSpace\\H\u1ECDc\\PRU\\PRU212-UnityGame\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{147861A5-D83C-B520-CC5C-790CB4157019}|Assembly-CSharp.csproj|c:\\users\\dang to\\documents\\workspace\\h\u1ECDc\\pru\\pru212-unitygame\\assets\\duccop\\scripts\\health\\healthcollectibleduc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{147861A5-D83C-B520-CC5C-790CB4157019}|Assembly-CSharp.csproj|c:\\users\\dang to\\documents\\workspace\\h\u1ECDc\\pru\\pru212-unitygame\\assets\\scripts-d\\dpausemenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{147861A5-D83C-B520-CC5C-790CB4157019}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts-d\\dpausemenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{147861A5-D83C-B520-CC5C-790CB4157019}|Assembly-CSharp.csproj|C:\\Users\\DANG TO\\Documents\\WorkSpace\\H\u1ECDc\\PRU\\PRU212-UnityGame\\assets\\scripts-d\\dsoundmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{147861A5-D83C-B520-CC5C-790CB4157019}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts-d\\dsoundmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{147861A5-D83C-B520-CC5C-790CB4157019}|Assembly-CSharp.csproj|C:\\Users\\DANG TO\\Documents\\WorkSpace\\H\u1ECDc\\PRU\\PRU212-UnityGame\\assets\\scripts-d\\scenemanagement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{147861A5-D83C-B520-CC5C-790CB4157019}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts-d\\scenemanagement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{147861A5-D83C-B520-CC5C-790CB4157019}|Assembly-CSharp.csproj|C:\\Users\\DANG TO\\Documents\\WorkSpace\\H\u1ECDc\\PRU\\PRU212-UnityGame\\assets\\scripts-d\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{147861A5-D83C-B520-CC5C-790CB4157019}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts-d\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{147861A5-D83C-B520-CC5C-790CB4157019}|Assembly-CSharp.csproj|C:\\Users\\DANG TO\\Documents\\WorkSpace\\H\u1ECDc\\PRU\\PRU212-UnityGame\\assets\\scripts-d\\fireball.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{147861A5-D83C-B520-CC5C-790CB4157019}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts-d\\fireball.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{147861A5-D83C-B520-CC5C-790CB4157019}|Assembly-CSharp.csproj|C:\\Users\\DANG TO\\Documents\\WorkSpace\\H\u1ECDc\\PRU\\PRU212-UnityGame\\assets\\scripts-d\\playerattackfireball.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{147861A5-D83C-B520-CC5C-790CB4157019}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts-d\\playerattackfireball.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{147861A5-D83C-B520-CC5C-790CB4157019}|Assembly-CSharp.csproj|C:\\Users\\DANG TO\\Documents\\WorkSpace\\H\u1ECDc\\PRU\\PRU212-UnityGame\\assets\\scripts-d\\dbosslv2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{147861A5-D83C-B520-CC5C-790CB4157019}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts-d\\dbosslv2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{147861A5-D83C-B520-CC5C-790CB4157019}|Assembly-CSharp.csproj|C:\\Users\\DANG TO\\Documents\\WorkSpace\\H\u1ECDc\\PRU\\PRU212-UnityGame\\assets\\scripts-d\\enemy21.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{147861A5-D83C-B520-CC5C-790CB4157019}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts-d\\enemy21.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{147861A5-D83C-B520-CC5C-790CB4157019}|Assembly-CSharp.csproj|C:\\Users\\DANG TO\\Documents\\WorkSpace\\H\u1ECDc\\PRU\\PRU212-UnityGame\\assets\\scripts-d\\gameover.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{147861A5-D83C-B520-CC5C-790CB4157019}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts-d\\gameover.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{147861A5-D83C-B520-CC5C-790CB4157019}|Assembly-CSharp.csproj|C:\\Users\\DANG TO\\Documents\\WorkSpace\\H\u1ECDc\\PRU\\PRU212-UnityGame\\assets\\scripts-d\\drecoverhealandmana.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{147861A5-D83C-B520-CC5C-790CB4157019}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts-d\\drecoverhealandmana.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{147861A5-D83C-B520-CC5C-790CB4157019}|Assembly-CSharp.csproj|C:\\Users\\DANG TO\\Documents\\WorkSpace\\H\u1ECDc\\PRU\\PRU212-UnityGame\\assets\\duccop\\scripts\\health\\healthcollectibleduc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{147861A5-D83C-B520-CC5C-790CB4157019}|Assembly-CSharp.csproj|solutionrelative:assets\\duccop\\scripts\\health\\healthcollectibleduc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{147861A5-D83C-B520-CC5C-790CB4157019}|Assembly-CSharp.csproj|c:\\users\\dang to\\documents\\workspace\\h\u1ECDc\\pru\\pru212-unitygame\\assets\\scripts-d\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{147861A5-D83C-B520-CC5C-790CB4157019}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts-d\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{147861A5-D83C-B520-CC5C-790CB4157019}|Assembly-CSharp.csproj|C:\\Users\\DANG TO\\Documents\\WorkSpace\\H\u1ECDc\\PRU\\PRU212-UnityGame\\assets\\scripts-d\\sounds.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{147861A5-D83C-B520-CC5C-790CB4157019}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts-d\\sounds.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,33 +58,154 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Player.cs",
-              "DocumentMoniker": "C:\\Users\\DANG TO\\Documents\\WorkSpace\\H\u1ECDc\\PRU\\PRU212-UnityGame\\Assets\\Scripts-D\\Player.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts-D\\Player.cs",
-              "ToolTip": "C:\\Users\\DANG TO\\Documents\\WorkSpace\\H\u1ECDc\\PRU\\PRU212-UnityGame\\Assets\\Scripts-D\\Player.cs",
-              "RelativeToolTip": "Assets\\Scripts-D\\Player.cs",
-              "ViewState": "AQIAANEAAAAAAAAAAAA0wO0AAAAAAAAA",
+              "DocumentIndex": 0,
+              "Title": "DPauseMenu.cs",
+              "DocumentMoniker": "C:\\Users\\DANG TO\\Documents\\WorkSpace\\H\u1ECDc\\PRU\\PRU212-UnityGame\\Assets\\Scripts-D\\DPauseMenu.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts-D\\DPauseMenu.cs",
+              "ToolTip": "C:\\Users\\DANG TO\\Documents\\WorkSpace\\H\u1ECDc\\PRU\\PRU212-UnityGame\\Assets\\Scripts-D\\DPauseMenu.cs",
+              "RelativeToolTip": "Assets\\Scripts-D\\DPauseMenu.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAAbAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-13T07:12:43.06Z",
+              "WhenOpened": "2025-03-25T11:17:47.191Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
+              "Title": "DSoundManager.cs",
+              "DocumentMoniker": "C:\\Users\\DANG TO\\Documents\\WorkSpace\\H\u1ECDc\\PRU\\PRU212-UnityGame\\Assets\\Scripts-D\\DSoundManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts-D\\DSoundManager.cs",
+              "ToolTip": "C:\\Users\\DANG TO\\Documents\\WorkSpace\\H\u1ECDc\\PRU\\PRU212-UnityGame\\Assets\\Scripts-D\\DSoundManager.cs",
+              "RelativeToolTip": "Assets\\Scripts-D\\DSoundManager.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAQwA8AAAATAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-25T10:45:48.756Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Fireball.cs",
+              "DocumentMoniker": "C:\\Users\\DANG TO\\Documents\\WorkSpace\\H\u1ECDc\\PRU\\PRU212-UnityGame\\Assets\\Scripts-D\\Fireball.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts-D\\Fireball.cs",
+              "ToolTip": "C:\\Users\\DANG TO\\Documents\\WorkSpace\\H\u1ECDc\\PRU\\PRU212-UnityGame\\Assets\\Scripts-D\\Fireball.cs",
+              "RelativeToolTip": "Assets\\Scripts-D\\Fireball.cs",
+              "ViewState": "AQIAAB4AAAAAAAAAAAA5wDIAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-25T09:49:55.361Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "PlayerAttackFireball.cs",
+              "DocumentMoniker": "C:\\Users\\DANG TO\\Documents\\WorkSpace\\H\u1ECDc\\PRU\\PRU212-UnityGame\\Assets\\Scripts-D\\PlayerAttackFireball.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts-D\\PlayerAttackFireball.cs",
+              "ToolTip": "C:\\Users\\DANG TO\\Documents\\WorkSpace\\H\u1ECDc\\PRU\\PRU212-UnityGame\\Assets\\Scripts-D\\PlayerAttackFireball.cs",
+              "RelativeToolTip": "Assets\\Scripts-D\\PlayerAttackFireball.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAAgwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-25T09:49:32.728Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "DBosslv2.cs",
+              "DocumentMoniker": "C:\\Users\\DANG TO\\Documents\\WorkSpace\\H\u1ECDc\\PRU\\PRU212-UnityGame\\Assets\\Scripts-D\\DBosslv2.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts-D\\DBosslv2.cs",
+              "ToolTip": "C:\\Users\\DANG TO\\Documents\\WorkSpace\\H\u1ECDc\\PRU\\PRU212-UnityGame\\Assets\\Scripts-D\\DBosslv2.cs",
+              "RelativeToolTip": "Assets\\Scripts-D\\DBosslv2.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-25T09:41:35.427Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "GameOver.cs",
+              "DocumentMoniker": "C:\\Users\\DANG TO\\Documents\\WorkSpace\\H\u1ECDc\\PRU\\PRU212-UnityGame\\Assets\\Scripts-D\\GameOver.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts-D\\GameOver.cs",
+              "ToolTip": "C:\\Users\\DANG TO\\Documents\\WorkSpace\\H\u1ECDc\\PRU\\PRU212-UnityGame\\Assets\\Scripts-D\\GameOver.cs",
+              "RelativeToolTip": "Assets\\Scripts-D\\GameOver.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-25T09:20:36.108Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "SceneManageMent.cs",
+              "DocumentMoniker": "C:\\Users\\DANG TO\\Documents\\WorkSpace\\H\u1ECDc\\PRU\\PRU212-UnityGame\\Assets\\Scripts-D\\SceneManageMent.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts-D\\SceneManageMent.cs",
+              "ToolTip": "C:\\Users\\DANG TO\\Documents\\WorkSpace\\H\u1ECDc\\PRU\\PRU212-UnityGame\\Assets\\Scripts-D\\SceneManageMent.cs",
+              "RelativeToolTip": "Assets\\Scripts-D\\SceneManageMent.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABUAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-25T09:13:42.018Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Enemy21.cs",
+              "DocumentMoniker": "C:\\Users\\DANG TO\\Documents\\WorkSpace\\H\u1ECDc\\PRU\\PRU212-UnityGame\\Assets\\Scripts-D\\Enemy21.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts-D\\Enemy21.cs",
+              "ToolTip": "C:\\Users\\DANG TO\\Documents\\WorkSpace\\H\u1ECDc\\PRU\\PRU212-UnityGame\\Assets\\Scripts-D\\Enemy21.cs",
+              "RelativeToolTip": "Assets\\Scripts-D\\Enemy21.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAA1AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-25T08:15:13.727Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Sounds.cs",
+              "DocumentMoniker": "C:\\Users\\DANG TO\\Documents\\WorkSpace\\H\u1ECDc\\PRU\\PRU212-UnityGame\\Assets\\Scripts-D\\Sounds.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts-D\\Sounds.cs",
+              "ToolTip": "C:\\Users\\DANG TO\\Documents\\WorkSpace\\H\u1ECDc\\PRU\\PRU212-UnityGame\\Assets\\Scripts-D\\Sounds.cs",
+              "RelativeToolTip": "Assets\\Scripts-D\\Sounds.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-25T08:00:21.51Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
               "Title": "HealthCollectibleDuc.cs",
               "DocumentMoniker": "C:\\Users\\DANG TO\\Documents\\WorkSpace\\H\u1ECDc\\PRU\\PRU212-UnityGame\\Assets\\DucCop\\Scripts\\Health\\HealthCollectibleDuc.cs",
               "RelativeDocumentMoniker": "Assets\\DucCop\\Scripts\\Health\\HealthCollectibleDuc.cs",
               "ToolTip": "C:\\Users\\DANG TO\\Documents\\WorkSpace\\H\u1ECDc\\PRU\\PRU212-UnityGame\\Assets\\DucCop\\Scripts\\Health\\HealthCollectibleDuc.cs",
               "RelativeToolTip": "Assets\\DucCop\\Scripts\\Health\\HealthCollectibleDuc.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAABJAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-13T07:10:52.659Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-25T07:53:57.338Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "DRecoverHealAndMana.cs",
+              "DocumentMoniker": "C:\\Users\\DANG TO\\Documents\\WorkSpace\\H\u1ECDc\\PRU\\PRU212-UnityGame\\Assets\\Scripts-D\\DRecoverHealAndMana.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts-D\\DRecoverHealAndMana.cs",
+              "ToolTip": "C:\\Users\\DANG TO\\Documents\\WorkSpace\\H\u1ECDc\\PRU\\PRU212-UnityGame\\Assets\\Scripts-D\\DRecoverHealAndMana.cs",
+              "RelativeToolTip": "Assets\\Scripts-D\\DRecoverHealAndMana.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-25T07:53:24.606Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Player.cs",
+              "DocumentMoniker": "C:\\Users\\DANG TO\\Documents\\WorkSpace\\H\u1ECDc\\PRU\\PRU212-UnityGame\\Assets\\Scripts-D\\Player.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts-D\\Player.cs",
+              "ToolTip": "C:\\Users\\DANG TO\\Documents\\WorkSpace\\H\u1ECDc\\PRU\\PRU212-UnityGame\\Assets\\Scripts-D\\Player.cs",
+              "RelativeToolTip": "Assets\\Scripts-D\\Player.cs",
+              "ViewState": "AQIAAOgAAAAAAAAAAAASwP0AAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-13T07:12:43.06Z"
             }
           ]
         }

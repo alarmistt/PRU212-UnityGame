@@ -6156,10 +6156,6 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 972671139}
-    - target: {fileID: 3639257814996620967, guid: 2d28fadf1c291934ca5e51dace76774e, type: 3}
-      propertyPath: maxHealth
-      value: 15
-      objectReference: {fileID: 0}
     - target: {fileID: 5938576672766579100, guid: 2d28fadf1c291934ca5e51dace76774e, type: 3}
       propertyPath: m_LocalPosition.x
       value: -15.989347
@@ -7033,6 +7029,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   CoinAudioSoure: {fileID: 1872722749}
   SwordSoure: {fileID: 1872722750}
+  HealManaSource: {fileID: 0}
 --- !u!82 &1872722749
 AudioSource:
   m_ObjectHideFlags: 0
@@ -7458,6 +7455,11 @@ GameObject:
 Transform:
   m_CorrespondingSourceObject: {fileID: 576515019420755258, guid: e43e0c03cae3c694e92ad47e97055c51, type: 3}
   m_PrefabInstance: {fileID: 1983809905}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1948905264 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4510506450064469030, guid: 6bb5359e72fd2ba4899b956e37b97ca8, type: 3}
+  m_PrefabInstance: {fileID: 876580885533308318}
   m_PrefabAsset: {fileID: 0}
 --- !u!114 &1973884455 stripped
 MonoBehaviour:
@@ -12640,7 +12642,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2922555588316065357, guid: 1d3e9a72334d9f14d99decbdd0271873, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0
+      value: 12.55
       objectReference: {fileID: 0}
     - target: {fileID: 2922555588316065357, guid: 1d3e9a72334d9f14d99decbdd0271873, type: 3}
       propertyPath: m_LocalRotation.w
@@ -13030,6 +13032,10 @@ PrefabInstance:
       propertyPath: ManaBar
       value: 
       objectReference: {fileID: 1582735901}
+    - target: {fileID: 6741120447415011787, guid: 1c8a29908b7ad6145a09a2496c9aca0f, type: 3}
+      propertyPath: PauseUI
+      value: 
+      objectReference: {fileID: 1948905264}
     - target: {fileID: 6741120447415011787, guid: 1c8a29908b7ad6145a09a2496c9aca0f, type: 3}
       propertyPath: healthBar
       value: 

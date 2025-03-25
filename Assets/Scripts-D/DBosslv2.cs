@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using UnityEngine.UI;
 
-public class DEnemy21 : MonoBehaviour
+public class DBosslv2 : MonoBehaviour
 {
     private bool playerInRange = false;
     private bool isFacingRight = true;
@@ -24,7 +24,7 @@ public class DEnemy21 : MonoBehaviour
     [SerializeField] private float retrieveDistance = 2f;
     [SerializeField] private float attackRadius = 2f;
     [SerializeField] private int maxHealth = 35;
-    private int HealthDefault = 35;
+    private int HealthDefault = 200;
     private int damage = 10;
     private float distance;
 
@@ -37,13 +37,6 @@ public class DEnemy21 : MonoBehaviour
     void Update()
     {
         slider.value = (float)maxHealth / HealthDefault;
-
-        if (maxHealth < (HealthDefault/2))
-        {
-            animator.SetBool("Heal", true);
-            walkSpeed = 3;
-            damage = 20;
-        }
 
         if (maxHealth <= 0)
         {
