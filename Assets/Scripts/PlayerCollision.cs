@@ -3,25 +3,36 @@ using UnityEngine;
 public class PlayerCollision : MonoBehaviour
 {
     private GameManager gameManager;
+    private MeleeEnemy enemy;
+    private AudioManager audioManager;
 
     private void Awake()
     {
-        gameManager = FindAnyObjectByType<GameManager>();  
+        gameManager = FindAnyObjectByType<GameManager>();
+        audioManager = FindAnyObjectByType<AudioManager>();
+
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.CompareTag("Coin")) {
+        if (collision.CompareTag("Coin"))
+        {
             Destroy(collision.gameObject);
+            audioManager.PlayCoinSound();
             gameManager.AddScore(1);
         }
-        else if(collision.CompareTag("Trap"))
+        else if (collision.CompareTag("Trap"))
         {
             gameManager.GameOver();
         }
-        else if(collision.CompareTag("KillZone"))
+        else if (collision.CompareTag("KillZone"))
         {
             gameManager.GameOver();
+        }
+        else if (collision.CompareTag("Enemy"))
+        {
+            collision.GetComponent<EnemyHealth>()?.TakeDamage(1);
         }
     }
 }
+

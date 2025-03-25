@@ -13,11 +13,14 @@ public class PlayerController : MonoBehaviour
     private bool attack = false;
     private float timeBetweenAttack, timeSinceAttack;
     private float xAxis;
+    private AudioManager audioManager;
+
     private void Awake()
     {
         animator = GetComponent<Animator>();
         rb = GetComponent<Rigidbody2D>();
         gameManager = FindAnyObjectByType<GameManager>();
+        audioManager = FindAnyObjectByType<AudioManager>();
     }
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -41,16 +44,24 @@ public class PlayerController : MonoBehaviour
 
     private void HandleMovement()
     {
+        if (animator.GetCurrentAnimatorStateInfo(0).IsName("die"))
+        {
+            return; 
+        }
+
         float moveInput = Input.GetAxis("Horizontal");
         rb.linearVelocity = new Vector2(moveInput * moveSpeed, rb.linearVelocity.y);
+
         if (moveInput > 0) transform.localScale = new Vector3(1, 1, 1);
         else if (moveInput < 0) transform.localScale = new Vector3(-1, 1, 1);
     }
+
 
     private void HandleJump()
     {
         if (Input.GetButtonDown("Jump") && isGrounded)
         {
+            audioManager.PlayJumpSound();
             rb.linearVelocity = new Vector2(rb.linearVelocity.x, jumpForce);
         }
         isGrounded = Physics2D.OverlapCircle(groundCheck.position, 0.2f, groundPlayer);
@@ -64,15 +75,18 @@ public class PlayerController : MonoBehaviour
         animator.SetBool("isJumping", isJumping);
     }
 
+   
+
     private void Attack()
     {
         timeSinceAttack += Time.deltaTime;
-        if(attack && timeSinceAttack >= timeBetweenAttack)
+        if (attack && timeSinceAttack >= timeBetweenAttack)
         {
             timeSinceAttack = 0;
             animator.SetTrigger("Attacking");
         }
     }
+
 
     private void GetInput()
     {
