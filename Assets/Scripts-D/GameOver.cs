@@ -12,7 +12,8 @@ public class DGameOver : MonoBehaviour
 
     public void Retry()
     {
-
+        PlayerPrefs.SetInt("CurentCoin", 0);
+        PlayerPrefs.Save();
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
     }
 

@@ -45,6 +45,17 @@ public class DBosslv2 : MonoBehaviour
             return;
         }
 
+        if(maxHealth <= HealthDefault/2)
+        {
+            animator.SetBool("Heal", true);
+            damage = 20;
+            walkSpeed = 5f;
+            chaseSpeed = 7f;
+        } else
+        {
+            animator.SetBool("Heal", false);
+        }
+
         if (player == null)
         {
             animator.SetBool("PlayerDead", true);

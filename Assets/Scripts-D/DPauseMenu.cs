@@ -12,6 +12,8 @@ public class DPauseMenu : MonoBehaviour
 
     public void Home()
     {
+        PlayerPrefs.SetFloat("musicVolume", 0.5f);
+        PlayerPrefs.Save();
         Time.timeScale = 1;
         SceneManager.LoadScene("Menu");
     }
@@ -24,6 +26,8 @@ public class DPauseMenu : MonoBehaviour
 
     public void Restart()
     {
+        PlayerPrefs.SetInt("CurentCoin", 0);
+        PlayerPrefs.Save();
         Time.timeScale = 1;
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
     }

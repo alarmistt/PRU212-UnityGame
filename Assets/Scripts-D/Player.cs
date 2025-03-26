@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using System.Collections;
+using UnityEngine;
 using UnityEngine.UI;
 
 public class DPlayerMovement : MonoBehaviour
@@ -7,6 +8,12 @@ public class DPlayerMovement : MonoBehaviour
     private bool isFacingRight = true;
     private bool isGrounded = true;
     private bool isWon = false;
+    private bool canDash = true;
+    private bool isDashing;
+    private float dashingPower = 8f;
+    private float dashingTime = 0.2f;
+    private float dashingCooldown = 1f;
+
 
     [SerializeField]
     private int dame = 5;
@@ -36,8 +43,8 @@ public class DPlayerMovement : MonoBehaviour
     private Transform attackPoint;  
     [SerializeField]
     private LayerMask targetLayer;
-    //[SerializeField]
-    //private Text maxHealthText;
+    [SerializeField]
+    private TrailRenderer tr;
 
     [SerializeField]
     private Image healthBar;
@@ -57,9 +64,18 @@ public class DPlayerMovement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if (isDashing)
+        {
+            return;
+        }
         if (Input.GetKey(KeyCode.Escape))
         {
             ShowPauseUI();
+        }
+        if (Input.GetKey(KeyCode.L) && canDash && maxMana >= 5)
+        {
+            UseMana(5);
+            StartCoroutine(Dash());
         }
         if (isWon)
         {
@@ -189,6 +205,34 @@ public class DPlayerMovement : MonoBehaviour
         maxHealth = heal;
         maxMana = heal;
     }
+
+    public void HealPosion(int heal)
+    {
+        if (heal <= 0)
+        {
+            return;
+        }
+        maxHealth += heal;
+    }
+
+    public void ManaPosion(int mana)
+    {
+        if (mana <= 0)
+        {
+            return;
+        }
+        maxMana += mana;
+    }
+
+    public void DamagePosion(int damaged)
+    {
+        if (damaged <= 0)
+        {
+            return;
+        }
+        maxHealth -= damaged;
+    }
+
     private void OnCollisionEnter2D(Collision2D collision)
     {
         if (collision.gameObject.tag == "Ground")
@@ -274,5 +318,21 @@ public class DPlayerMovement : MonoBehaviour
     {
         PlayerPrefs.SetInt("curentCoin", 0);
         PlayerPrefs.Save();
+    }
+
+    private IEnumerator Dash()
+    {
+        canDash = false;
+        isDashing = true;
+        float originalGravity = rb.gravityScale;
+        rb.gravityScale = 0f;
+        rb.linearVelocity = new Vector2((isFacingRight ? 1 : -1) * dashingPower, 0f);
+        tr.emitting = true;
+        yield return new WaitForSeconds(dashingTime);
+        tr.emitting = false;
+        rb.gravityScale = originalGravity;
+        isDashing = false;
+        yield return new WaitForSeconds(dashingCooldown);
+        canDash = true;
     }
 }
