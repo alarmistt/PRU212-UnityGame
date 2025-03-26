@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Artwork_Potion_Verte_TWW_0: 3988512341990495589
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -2,15 +2,19 @@ using UnityEngine;
 
 public class PlayerAttack : MonoBehaviour
 {
-    [SerializeField] private float attackCooldown = 0.5f;
+    [SerializeField] private float attackCooldown;
     [SerializeField] private Transform attackPoint;
+    [SerializeField] private float shootCooldown;
+    [SerializeField] private Transform firePoint;
+    [SerializeField] private GameObject[] fireballs;
     [SerializeField] private float attackRange = 0.5f;
-    [SerializeField] private int attackDamage = 30;
+    [SerializeField] private int attackDamage = 20;
     [SerializeField] private LayerMask enemyLayers;
 
     private Animator anim;
     private PlayerController playerController;
     private float cooldownTimer = Mathf.Infinity;
+    private bool canShoot = true;
 
     private void Awake()
     {
@@ -26,6 +30,11 @@ public class PlayerAttack : MonoBehaviour
         {
             Attack();
         }
+
+        if (Input.GetKeyDown(KeyCode.F) && cooldownTimer > shootCooldown && CanAttack())
+        {
+            Shooting();
+        }
     }
 
     private bool CanAttack()
@@ -37,7 +46,6 @@ public class PlayerAttack : MonoBehaviour
     {
         if (attackPoint == null)
         {
-            Debug.LogError("AttackPoint ch?a ???c gán trong Inspector!");
             return;
         }
 
@@ -51,10 +59,6 @@ public class PlayerAttack : MonoBehaviour
             {
                 enemy.GetComponent<EnemyHealth>().TakeDamage(attackDamage);
             }
-            else if (enemy.CompareTag("Boss"))
-            {
-                // Thêm code x? lý ?ánh boss n?u c?n
-            }
         }
     }
 
@@ -65,5 +69,30 @@ public class PlayerAttack : MonoBehaviour
 
         Gizmos.color = Color.red;
         Gizmos.DrawWireSphere(attackPoint.position, attackRange);
+    }
+
+    private void Shooting()
+    {
+        /*playerMana.UsingMana();*/
+        anim.SetTrigger("playerShooting");
+        cooldownTimer = 0;
+
+
+        fireballs[FindFireball()].transform.position = firePoint.position;
+        fireballs[FindFireball()].GetComponent<Projectile>().SetDirection(Mathf.Sign(transform.localScale.x));
+    }
+
+    private int FindFireball()
+    {
+        for (int i = 0; i < fireballs.Length; i++)
+        {
+            if (!fireballs[i].activeInHierarchy)
+                return i;
+        }
+        return 0;
+    }
+    public void SetCanShoot(bool value)
+    {
+        canShoot = value;
     }
 }

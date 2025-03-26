@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      TWWHD_Red_Potion_Artwork_0: -4791197066656364078
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

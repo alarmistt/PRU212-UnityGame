@@ -17,7 +17,7 @@ public class TaiManaPotion : MonoBehaviour
 
             if (pickupSound != null)
             {
-                AudioSource.PlayClipAtPoint(pickupSound, transform.position);
+                AudioSource.PlayClipAtPoint(pickupSound, Camera.main.transform.position);
             }
 
             Destroy(gameObject); 

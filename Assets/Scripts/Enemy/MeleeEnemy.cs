@@ -79,7 +79,7 @@ public class MeleeEnemy : MonoBehaviour
         anim.SetTrigger("die");
         GetComponent<Collider2D>().enabled = false;
         this.enabled = false;
-        Destroy(gameObject, 1f);
+        Destroy(gameObject, 0.5f);
     }
 
     private void OnDrawGizmos()

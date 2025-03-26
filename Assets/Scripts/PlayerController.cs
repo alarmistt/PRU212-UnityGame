@@ -87,7 +87,6 @@ public class PlayerController : MonoBehaviour
         }
     }
 
-
     private void GetInput()
     {
         /*xAxis = Input.GetAxisRaw("Horizontal");*/

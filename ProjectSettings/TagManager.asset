@@ -60,6 +60,9 @@ TagManager:
   - name: ForeGround
     uniqueID: 564221263
     locked: 0
+  - name: Enemy
+    uniqueID: 398525477
+    locked: 0
   - name: Player
     uniqueID: 359870739
     locked: 0

@@ -22,10 +22,8 @@ public class Health : MonoBehaviour
     public void TakeDamage(float _damage)
     {
         currentHealth = Mathf.Clamp(currentHealth - _damage, 0, startingHealth);
-        Debug.Log("Máu nhân v?t sau khi b? ?ánh: " + currentHealth);
         if (currentHealth > 0)
         {
-            /*anim.SetTrigger("hurt");*/
             StartCoroutine(Invunerability());
         }
         else
@@ -42,6 +40,7 @@ public class Health : MonoBehaviour
             Debug.Log("Health Restored: " + _value);
         }
     }
+
     public void RestoreHealth()
     {
         currentHealth = startingHealth;
@@ -57,13 +56,5 @@ public class Health : MonoBehaviour
             yield return new WaitForSeconds(iFramesDuration / (numberOfFlashes * 2));
         }
         Physics2D.IgnoreLayerCollision(10, 11, false);
-    }
-
-    private void Update()
-    {
-        if (Input.GetKeyDown(KeyCode.R))
-        {
-            RestoreHealth();
-        }
     }
 }

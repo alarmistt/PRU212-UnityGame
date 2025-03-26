@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      TWWHD_Blue_Potion_Artwork_0: 1032774061871205098
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
