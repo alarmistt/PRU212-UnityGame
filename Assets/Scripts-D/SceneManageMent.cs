@@ -4,6 +4,7 @@ using UnityEngine.SceneManagement;
 public class DSceneManageMent : MonoBehaviour
 {
     // Start is called once before the first execution of Update after the MonoBehaviour is created
+    [SerializeField] private GameObject HowToPlayUI;
     void Start()
     {
         
@@ -20,6 +21,15 @@ public class DSceneManageMent : MonoBehaviour
         PlayerPrefs.SetInt("CurentCoin", 0);
         PlayerPrefs.Save();
         SceneManager.LoadScene("Level_2");
+    }
+
+    public void ShowHowToPlayUI ()
+    {
+        HowToPlayUI.SetActive(true);
+    }
+    public void HideHowToPlayUI ()
+    {
+        HowToPlayUI.SetActive(false);
     }
 
     public void Exit()
