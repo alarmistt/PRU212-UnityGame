@@ -9,13 +9,14 @@ public class DSoundManager : MonoBehaviour
     {
         if (!PlayerPrefs.HasKey("musicVolume"))
         {
-            PlayerPrefs.SetFloat("musicVolume", 1);
+            PlayerPrefs.SetFloat("musicVolume", 0.5f);
             Load();
-        } else
+        }
+        else
         {
             Load();
         }
-        
+
     }
 
     // Update is called once per frame
