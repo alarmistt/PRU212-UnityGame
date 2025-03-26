@@ -6,6 +6,9 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Scenes/HuyTai.unity
+    guid: 2ee685471eb4b604a9e4778aaa827be4
+  - enabled: 1
     path: Assets/Scenes/Level_2.unity
     guid: 8c9cfa26abfee488c85f1582747f6a02
   - enabled: 1
@@ -18,8 +21,11 @@ EditorBuildSettings:
     path: Assets/Scenes/Menu.unity
     guid: 95008c9be9347214383b6cb38c632f69
   - enabled: 1
-    path: Assets/Scenes/Level_2.unity
-    guid: 6c218de40fc932a4fb85d958f122a383
+    path: Assets/Scenes/MinhDuc.unity
+    guid: 9d226747091d2574aa181ecf87bcd6ac
+  - enabled: 1
+    path: Assets/Scenes/TanTai.unity
+    guid: 4f2f2f9768dfcaf4b9aca7934ba19f27
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0
