@@ -21,7 +21,7 @@ public class TaiEnemyPatrol : MonoBehaviour
     [Header("Enemy Animator")]
     [SerializeField] private Animator anim;
 
-    private bool isDie;  // Thêm biến này
+    private bool isDie;  
 
     private void Awake()
     {
