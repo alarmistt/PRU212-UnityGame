@@ -56,10 +56,10 @@ public class TaiMeleeEnemy : MonoBehaviour
         RaycastHit2D hit = Physics2D.BoxCast(boxCenter, boxSize, 0, Vector2.zero, 0, playerLayer);
         if (hit.collider != null)
         {
-            TaiHealth player = hit.collider.GetComponent<TaiHealth>();
-            if (player != null)
+            TaiHealth playerHealth = hit.collider.GetComponent<TaiHealth>();
+            if (playerHealth != null)
             {
-                player.TakeDamage(damage);
+                playerHealth.TakeDamage(damage);
             }
         }
     }

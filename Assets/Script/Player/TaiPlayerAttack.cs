@@ -19,20 +19,22 @@ public class TaiPlayerAttack : MonoBehaviour
     private Animator anim;
     private TaiPlayerMovement playerMovement;
     private float cooldownTimer = Mathf.Infinity;
-
+    private bool canShoot = true;
+    private TaiMana playerMana;
     private void Awake()
     {
         anim = GetComponent<Animator>();
         playerMovement = GetComponent<TaiPlayerMovement>();
-        audioSource = GetComponent<AudioSource>(); // L?y AudioSource t? ??i t??ng
+        audioSource = GetComponent<AudioSource>();
+        playerMana = GetComponentInParent<TaiMana>();
     }
 
     private void Update()
     {
         if (Input.GetMouseButton(0) && cooldownTimer > attackCooldown && playerMovement.CanAttack())
             Attack();
-
-        if (Input.GetMouseButton(1) && cooldownTimer > shootCooldown && playerMovement.CanAttack())
+    
+        if (Input.GetMouseButton(1) && cooldownTimer > shootCooldown && playerMovement.CanAttack() && playerMana.currentMana > 0)
             Shooting();
 
         cooldownTimer += Time.deltaTime;
@@ -43,7 +45,6 @@ public class TaiPlayerAttack : MonoBehaviour
         anim.SetTrigger("playerAttack");
         cooldownTimer = 0;
 
-        // Phát âm thanh t?n công
         PlaySound(attackSound);
 
         Collider2D[] hitEnemies = Physics2D.OverlapCircleAll(attackPoint.position, attackRange, enemyLayers);
@@ -62,10 +63,10 @@ public class TaiPlayerAttack : MonoBehaviour
 
     private void Shooting()
     {
+        playerMana.UsingMana();
         anim.SetTrigger("playerShooting");
         cooldownTimer = 0;
 
-        // Phát âm thanh b?n
         PlaySound(shootSound);
 
         fireballs[FindFireball()].transform.position = firePoint.position;
@@ -81,7 +82,10 @@ public class TaiPlayerAttack : MonoBehaviour
         }
         return 0;
     }
-
+    public void SetCanShoot(bool value)
+    {
+        canShoot = value;
+    }
     private void PlaySound(AudioClip clip)
     {
         if (audioSource != null && clip != null)
