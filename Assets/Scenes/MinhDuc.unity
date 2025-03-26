@@ -81635,6 +81635,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 313965120878251438, guid: 067c6190e026763458bd7caa2f17f63c, type: 3}
+      propertyPath: wallLayer.m_Bits
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 313965120878251438, guid: 067c6190e026763458bd7caa2f17f63c, type: 3}
       propertyPath: groundLayer.m_Bits
       value: 64
       objectReference: {fileID: 0}

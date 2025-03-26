@@ -7,10 +7,8 @@ public class TaiMana : MonoBehaviour
     public float currentMana { get; private set; }
     public float manaPershoot = 10f;
 
-    private TaiPlayerAttack playerAttack;
     private void Awake()
     {
-        playerAttack = GetComponentInParent<TaiPlayerAttack>();
         currentMana = startingMana;
     }
     public void UsingMana()

@@ -10,6 +10,7 @@ TagManager:
   - Enemy
   - Ground
   - Boss
+  - Checkpoint
   layers:
   - Default
   - TransparentFX
@@ -49,6 +50,9 @@ TagManager:
     locked: 0
   - name: BackGround
     uniqueID: 2416598291
+    locked: 0
+  - name: Trap
+    uniqueID: 780150271
     locked: 0
   - name: Ground
     uniqueID: 2354881369

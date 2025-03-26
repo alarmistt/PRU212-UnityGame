@@ -3,105 +3,150 @@ using System.Collections;
 
 public class TaiPlayerRespawn : MonoBehaviour
 {
-    public Transform respawnPoint;
-    public Transform bossRespawnPoint;
-    public TaiBossAimShoot bossAimShoot;
-    public TaiGateTrigger gateTrigger;
+    private Transform currentCheckpoint;
+    public Transform bossRespawnPoint; // Gán trong Inspector
+    public TaiBossAimShoot bossAimShoot; // Gán trong Inspector
+    public TaiGateTrigger gateTrigger; // Gán trong Inspector
     public float respawnDelay = 1.5f;
+    [SerializeField] private AudioClip checkpoint;
     private Animator anim;
     private TaiHealth health;
+    private TaiMana mana;
     private Vector3 initialRespawnPosition;
 
-    private void Start()
+    private void Awake()
     {
+        // Khởi tạo các component
         anim = GetComponent<Animator>();
         health = GetComponent<TaiHealth>();
+        mana = GetComponent<TaiMana>();
 
-        if (health == null)
-        {
-            Debug.LogError("Không tìm thấy component Health trên đối tượng Player!");
-        }
-
-        if (anim == null)
-        {
-            Debug.LogError("Không tìm thấy component Animator trên đối tượng Player!");
-        }
-
-        if (respawnPoint != null)
-        {
-            initialRespawnPosition = respawnPoint.position;
-        }
+        // Gán currentCheckpoint mặc định
+        currentCheckpoint = transform;
+        initialRespawnPosition = transform.position;
     }
 
-
-    public void Die(Animator anim)
-    {
-        if (anim != null)
-        {
-            anim.SetTrigger("playerDie");
-        }
-        StartCoroutine(Respawn());
-    }
     public void Die()
     {
+        // Kiểm tra và chạy animation nếu Animator tồn tại
         if (anim != null)
         {
-            // Đặt trigger trạng thái chết
             anim.SetTrigger("playerDie");
-            // Vô hiệu hóa di chuyển để không bị chuyển sang các trạng thái khác
-            GetComponent<Rigidbody2D>().linearVelocity = Vector2.zero;
-            GetComponent<TaiPlayerMovement>().enabled = false;
         }
 
+        // Dừng vận tốc của Rigidbody2D
+        Rigidbody2D rb = GetComponent<Rigidbody2D>();
+        if (rb != null)
+        {
+            rb.linearVelocity = Vector2.zero;
+        }
+
+        // Vô hiệu hóa TaiPlayerMovement
+        TaiPlayerMovement movement = GetComponent<TaiPlayerMovement>();
+        if (movement != null)
+        {
+            movement.enabled = false;
+        }
+
+        // Bắt đầu coroutine Respawn
         StartCoroutine(Respawn());
     }
+
     private IEnumerator Respawn()
     {
-        gateTrigger.OpenGate();
-        // Dịch chuyển về vị trí hồi sinh
-        transform.position = initialRespawnPosition;
+        // Đợi một khoảng thời gian
+        yield return new WaitForSeconds(respawnDelay);
 
-        // Tìm lại Boss và reset trạng thái
-        if (bossAimShoot != null)
+        // Đặt lại vị trí player về checkpoint
+        if (currentCheckpoint != null)
         {
-            bossAimShoot.UpdatePlayerReference(transform);
-
-            // Đặt boss về vị trí hồi sinh
-            if (bossRespawnPoint != null)
-            {
-                bossAimShoot.transform.position = bossRespawnPoint.position;
-                Debug.Log("Boss đã quay về vị trí hồi sinh!");
-            }
-            bossAimShoot.ResetBoss(); // Reset lại boss về trạng thái ban đầu
+            transform.position = currentCheckpoint.position;
         }
         else
         {
-            Debug.LogWarning("Không tìm thấy đối tượng BossAimShoot!");
+            transform.position = initialRespawnPosition;
         }
 
-        // Hồi máu dần dần để tạo cảm giác tự nhiên
-        float restoreTime = 1f; // Thời gian hồi máu
+        // Mở cổng nếu gateTrigger tồn tại
+        if (gateTrigger != null)
+        {
+            gateTrigger.OpenGate();
+        }
+
+        // Xử lý boss nếu tồn tại
+        if (bossAimShoot != null)
+        {
+            bossAimShoot.UpdatePlayerReference(transform);
+            if (bossRespawnPoint != null)
+            {
+                bossAimShoot.transform.position = bossRespawnPoint.position;
+            }
+            bossAimShoot.ResetBoss();
+        }
+
+        // Khôi phục máu từ từ
+        float restoreTime = 1f;
         float elapsedTime = 0f;
         while (elapsedTime < restoreTime)
         {
-            float t = elapsedTime / restoreTime;
-            health.AddHealth(Mathf.Lerp(0, health.startingHealth, t));
+            if (health != null)
+            {
+                float t = elapsedTime / restoreTime;
+                health.AddHealth(Mathf.Lerp(0, health.startingHealth, t));
+            }
             elapsedTime += Time.deltaTime;
             yield return null;
         }
-        health.RestoreHealth();
 
-        // Hiệu ứng hiện dần (Fade in)
+        // Khôi phục mana và health đầy đủ
+        if (mana != null)
+        {
+            mana.RestoreMana();
+        }
+        if (health != null)
+        {
+            health.RestoreHealth();
+        }
+
+        // Đặt lại animation
         if (anim != null)
         {
             anim.ResetTrigger("playerDie");
             anim.Play("PlayerIdle");
         }
-         GetComponent<TaiPlayerMovement>().enabled = true;
 
-        Debug.Log("Hồi sinh hoàn tất!");
+        // Kích hoạt lại TaiPlayerMovement
+        TaiPlayerMovement movement = GetComponent<TaiPlayerMovement>();
+        if (movement != null)
+        {
+            movement.enabled = true;
+        }
     }
 
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.gameObject.CompareTag("Checkpoint"))
+        {
+            currentCheckpoint = collision.transform;
 
+            // Phát âm thanh checkpoint nếu có
+            if (checkpoint != null)
+            {
+                AudioSource.PlayClipAtPoint(checkpoint, transform.position);
+            }
 
+            // Vô hiệu hóa collider và chạy animation của checkpoint
+            Collider2D col = collision.GetComponent<Collider2D>();
+            if (col != null)
+            {
+                col.enabled = false;
+            }
+
+            Animator checkpointAnim = collision.GetComponent<Animator>();
+            if (checkpointAnim != null)
+            {
+                checkpointAnim.SetTrigger("appear");
+            }
+        }
+    }
 }
